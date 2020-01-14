@@ -10,12 +10,13 @@ suppressPackageStartupMessages(library(here))
 suppressPackageStartupMessages(library(dplyr))
 ```
 
-Here are the topics for each class meeting. You can find the notes in the [guidebook](https://wiernik-datascience-classroom.netlify.com).
+Here are the topics for each class meeting. You can find the notes in the [guidebook](https://wiernik-datascience-guide.netlify.com).
 
 If you use a laptop, be sure to it to every class!
 
 ```{r, echo = FALSE, results='asis'}
 cm545 <- suppressMessages(read_csv(here("content", "cm_schedule.csv")))
+cm545 <- mutate_all(cm545, tidyr::replace_na, "")
 kable(cm545)
 ```
 

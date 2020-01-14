@@ -15,7 +15,7 @@ title = "Course Guide"
 [[feature]]
   icon = "book-open"
   icon_pack = "fas"
-  name = "[Guidebook](https://stat545guidebook.netlify.com/)"
+  name = "[Guidebook](https://wiernik-datascience-guide.netlify.com/)"
   description = ""  
   
 [[feature]]

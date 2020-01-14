@@ -25,4 +25,4 @@ title = "Course Structure"
   description = ""
 +++
 
-The course consists of lectures, which we call "class meetings". We also provide office hours.
+The course consists of class meetings that will include a combination of lecture, demonstration, and live coding exercises. You will also have homework exercises to practice and hone your skills.
