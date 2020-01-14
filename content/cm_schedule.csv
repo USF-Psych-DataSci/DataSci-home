@@ -1,28 +1,28 @@
 ﻿Meeting No.,Date,Topic
 1,1/16/2020,Welcome to data science and programming
-,,Introduction to R and RStudio
+  ,  ,Introduction to R and RStudio
 2,1/23/2020,Authoring and Markdown
-,,GitHub and version control
+  ,  ,GitHub and version control
 3,1/30/2020,Exploring your data
-,,ggplot2 Part 1
-,,dplyr Part 1
+  ,  ,ggplot2 Part 1
+  ,  ,dplyr Part 1
 4,2/6/2020,dplyr Part 2
-,,ggplot2 Part 2
+  ,  ,ggplot2 Part 2
 5,2/13/2020,"Tidy data, tidyr, pivoting"
-,,A tale of two tables: join and lookup
+  ,  ,A tale of two tables: join and lookup
 6,2/20/2020,File I/O and haven
-,,Project management
+  ,  ,Project management
 7,2/27/2020,Factors
-,,"More on plotting, visualization, and figure making"
+  ,  ,"More on plotting, visualization, and figure making"
 8,3/5/2020,Model fitting in R
-,,broom
+  ,  ,broom
 9,3/12/2020,purrr
-,,Writing R functions
+  ,  ,Writing R functions
 ☆,3/19/2020,No Class 😎 Spring Break 🌞
 10,3/26/2020,Simulating data
 ☆,3/28/2020,Last day to drop with a W
 11,4/2/2020,List columns
-,,Strings and characters
+  ,  ,Strings and characters
 12,4/9/2020,Even more automation
 13,4/16/2020,Flex time and additional topics
 14,4/23/2020,No Class – SIOP Annual Conference
