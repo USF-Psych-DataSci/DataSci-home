@@ -14,8 +14,6 @@ Here are the topics for each class meeting. You can find the notes in the [guide
 
 If you use a laptop, be sure to it to every class!
 
-## STAT 545A
-
 ```{r, echo = FALSE, results='asis'}
 cm545 <- suppressMessages(read_csv(here("content", "cm_schedule.csv")))
 kable(cm545)
