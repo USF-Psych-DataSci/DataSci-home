@@ -9,22 +9,22 @@ title = "Contact"
 [[feature]]
   icon = "bullhorn"
   icon_pack = "fas"
-  name = "[Announcements](https://github.com/STAT545-UBC-hw-2019-20/Announcements/issues)"
+  name = "[Announcements](https://github.com/USF-Psych-DataSci-2020/Announcements/issues)"
   description = "Discussion related to course happenings."
   
 [[feature]]
   icon = "comments"
   icon_pack = "fas"
-  name = "[Discussion](https://github.com/STAT545-UBC/Discussion/issues)"
+  name = "[Discussion](https://github.com/USF-Psych-DataSci-2020/Discussion/issues)"
   description = "Discussion related to course content."  
   
 [[feature]]
   icon = "github"
   icon_pack = "fab"
-  name = "[Your Homework Repository on GitHub](https://github.com/STAT545-UBC-hw-2019-20)"
+  name = "[Your Homework Repository on GitHub](https://github.com/USF-Psych-DataSci-2020)"
   description = "Discussion related to your submissions."
 +++
 
-Contact the teaching team through GitHub Issues in one of these three venues; use email if your message really ought to be private. 
+Contact me through GitHub Issues in one of these three venues; use email if your message should be private. 
 
-[Find out who you should be contacting for what](/whotocontact).
+[//]: # ([Find out who you should be contacting for what](/whotocontact).)
