@@ -23,7 +23,7 @@ As you work on the assignment, you are welcome to work from the browser (i.e., d
 
 ## Tidy Submission (20%)
 
-Follow the instructions for making a tidy submission, found on the [assignments home page](https://wiernik.datascience.netlify.com/evaluation/assignments).
+Follow the instructions for making a tidy submission, found on the [assignments home page](https://wiernik-datasci.netlify.com/evaluation/assignments).
 
 Note: Usually, a tidy submission does not have this much weight, but we recognize that this part is not trivial for your first time. A tidy submission involves using the tools taught in Week 1, and this is what this assignment is all about.
 

@@ -1,4 +1,4 @@
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/) [[![Netlify Status](https://api.netlify.com/api/v1/badges/0beef96c-b7ea-4137-a085-708052662030/deploy-status)](https://app.netlify.com/sites/wiernik-datascience/deploys)](https://app.netlify.com/sites/wiernik-datascience/deploys) [![Build Status](https://travis-ci.com/STAT545-UBC/STAT545-home.svg?branch=master)](https://travis-ci.com/USF-Psych-DataSci/DataSci-home)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/) [[![Netlify Status](https://api.netlify.com/api/v1/badges/0beef96c-b7ea-4137-a085-708052662030/deploy-status)](https://app.netlify.com/sites/wiernik-datasci/deploys)](https://app.netlify.com/sites/wiernik-datasci/deploys) [![Build Status](https://travis-ci.com/STAT545-UBC/STAT545-home.svg?branch=master)](https://travis-ci.com/USF-Psych-DataSci/DataSci-home)
 
 # DataSci-home
 

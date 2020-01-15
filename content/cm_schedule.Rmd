@@ -10,7 +10,7 @@ suppressPackageStartupMessages(library(here))
 suppressPackageStartupMessages(library(dplyr))
 ```
 
-Here are the topics for each class meeting. You can find the notes in the [guidebook](https://wiernik-datascience-guide.netlify.com).
+Here are the topics for each class meeting. You can find the notes in the [guidebook](https://wiernik-datasci-guide.netlify.com).
 
 If you use a laptop, be sure to it to every class!
 

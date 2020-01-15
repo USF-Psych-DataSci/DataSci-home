@@ -2,7 +2,7 @@
  
  Below you can find the check list with all the matreilas needed to get full participation marks. Instructor versions of the scripts run in class are porvided for your reference.
  
- > Note that the instructor copy is just for your reference. You can't just copy-paste the code made by me and submit it as your participation. Please review the [Code Plagiarism](https://wiernik-datascience.netlify.com/policies/) guidelines to avoid plagiarism. 
+ > Note that the instructor copy is just for your reference. You can't just copy-paste the code made by me and submit it as your participation. Please review the [Code Plagiarism](https://wiernik-datasci.netlify.com/policies/) guidelines to avoid plagiarism. 
 
 1. **Class Meeting 1a: Introduction to class and GitHub**   
     - [x] Register a GitHub account

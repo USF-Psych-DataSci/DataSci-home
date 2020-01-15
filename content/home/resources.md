@@ -9,7 +9,7 @@ title = "Resources"
 [[feature]]
   icon = "book-open"
   icon_pack = "fas"
-  name = "[Guidebook](https://wiernik-datascience-guide.netlify.com/)"
+  name = "[Guidebook](https://wiernik-datasci-guide.netlify.com/)"
   description = "Lecture notes and class activities"
   width = 4
 
