@@ -2,11 +2,14 @@
 title: "How to get unstuck"
 ---
 
-_By Jenny Bryan_
 
 What to do when you are stuck…
 
-Help yourself or, __maybe__, ~~drag others into your nightmare~~ ask for help. 
+Debugging things in R or other code can be a daunting process,
+but with some practice, you will get really good at helping yourself
+to diagnose and resolve your problems, as well as at effectively
+asking others for help.
+
 The links below contain excellent self-help advice.
 
 One of the great things about working in R is that the R community online is 
@@ -26,7 +29,7 @@ Here are some good resources to get your head in the right place.
 
   * This stackoverflow thread
     [How to make a great R reproducible example?](http://stackoverflow.com/questions/5963269/how-to-make-a-great-r-reproducible-example/5963610#5963610) 
-    is fantastic. I find that, in the process of preparing my great reproducible 
+    is fantastic. I find that, in the process of preparing a reproducible 
     example, I can often answer my own question. So it is a useful exercise even 
     if you aren't ready to ask for help yet. The process of stripping your 
     problem down to its bare essence often reveals where the root issue lies. 
@@ -38,16 +41,16 @@ Here are some good resources to get your head in the right place.
   * Check out [The R Inferno](http://www.burns-stat.com/documents/books/the-r-inferno/) 
     (see the 9th circle: "Unhelpfully seeking help").
   
-  > If someone has the wit and knowledge to answer your question, they probably 
-    have a lot of demands on their time. Members of the community are often very
-    willing to help, but do your best to make it easy for them. Making your 
-    message clear, concise, and user-friendly gives you the best chance of someone
-    being able to help you with your problem. 
+    - If someone has the wit and knowledge to answer your question, they probably 
+      have a lot of demands on their time. Members of the community are often very
+      willing to help, but do your best to make it easy for them. Making your 
+      message clear, concise, and user-friendly gives you the best chance of someone
+      being able to help you with your problem. 
     
-  > Be respectful of people's time. Respond to follow-up questions, provide concise
-    reproducible examples, and don't get upset if someone takes longer than
-    expected to get back to you. Remember, folks are volunteering their time
-    in these venues.
+    - Be respectful of people's time. Respond to follow-up questions, provide concise
+      reproducible examples, and don't get upset if someone takes longer than
+      expected to get back to you. Remember, folks are volunteering their time
+      in these venues.
   
   * Read the [R-help posting guide](http://www.r-project.org/posting-guide.html). 
     *But don't rush to post any questions there, it's not the most beginner-friendly venue!*
