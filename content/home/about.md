@@ -5,7 +5,8 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 10  # Order that this section will appear in.
 
-title = "Data Science and Programming: Wrangling, Exploration, and Visualization"
+title = "Data Science and Programming"
+subtitle = "Wrangling, Exploration, and Visualization"
 
 # DataSci "profile" being displayed, found in `content/authors/`
 # This should be the username of a profile in your `content/authors/` folder.

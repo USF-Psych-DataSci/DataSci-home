@@ -3,58 +3,81 @@ title: "Participation Assessment"
 date: "Updated `r Sys.Date()`"
 ---
 
-__Due__: Monday, October 21, at 23:59.
 
-The intent of the participation assessment is to encourage following along with class activities, which are usually coding sessions. You'll be putting all your in-class work in your own participation repository hosted on your GitHub user account, which we will evaluate at the end of the course.
+__Due__: Wednesday, April 29, at 23:59.
+
+At the end of the semester, you will submit a personal GitHub repository 
+containing all of your in-class work for review and grading. The intent of the 
+participation assessment is to encourage following along with class activities,
+which are usually coding sessions. 
+
 
 ## Expectations
 
-In short, we're evaluating _completeness_, not _correctness_. Specifically:
+In short, I'm evaluating _completeness_, not _correctness_. 
 
-Your participation component will be evaluated by the completeness of your repository. You'll be prompted in class when you should be contributing to your participation repository. 
+Specifically, your participation component will be evaluated by the completeness 
+of your repository. You'll be prompted in class when you should be contributing 
+to your participation repository. 
 
-### Completeness (70%)
+A checklist for your participation repo is [here](/evaluation/participation_checklist.md).
+This checklist will be updated each week of the semester to indicate what should
+be included in your participation repo from that week.
 
-Your repository should be _complete_ with all in-class exercises. Your work should resemble an honest _attempt_ at the activities, but __does not__ need to be anywhere near "correct" -- even completely failing at an activity will earn you full marks here!
 
-Each of the 14 classes wil receive equal weight here (5% per class).
+### Completeness (60%)
 
-### Documentation (30%)
+Your repository should be _complete_ with all in-class exercises. Your work 
+should resemble an honest _attempt_ at the activities, but **does not** need to 
+be anywhere near "correct"—even completely failing at an activity will earn you 
+full marks here!
+
+Each of the 12 classes will receive equal weight here (5% per class).
+
+### Documentation (40%)
 
 Your repository should be _well-documented_. 
 
-- 10%: Does your main README orient a stranger to your repository?
-- 10%: Will a stranger be able to figure out what the main files of your repository are for, and where they are located?
-- 10%: Are the contents of your files human readable? Although we aren't expecting publication-quality prose, there should be a moderate level of readability of your scripts to earn you full points here.
+- 10%: Does your main `README` orient a stranger to your repository?
+- 10%: Will a stranger be able to figure out what the main files of your 
+  repository are for, and where they are located?
+- 10%: Are the contents of your files human readable? I'm not expecting 
+  publication-quality prose, but there should be a moderate level of readability 
+  of your scripts to earn you full points here.
+- 10%: Does your repository follow good coding style and layout?
 
-### Missing Class
 
-If you miss class, you can still do the activities another time. 
+### Missing class
+
+If you miss class, you can still do the activities another time. They only need
+to be completed by the end of the semester (though doing them in class will
+give you an opportunity for live and easy feedback from me or your peers).
 
 
 ## Setup
 
 Here are the instructions to set up your participation repository.
 
-1. On your user account, make a new repository:
+1. On your GitHub user account, make a new repository:
     - Click the "+" in the top-right corner -> "New repository"
-    - Call it `STAT545-participation`
-    - We highly recommend making this a _public_ repo. But if you so desire, make it private. You can change this later.
-    - Say YES to initializing with a README. 
-2. Add the teaching team as collaborators:
+    - Call it `DataSci-participation`
+    - I highly recommend making this a _public_ repo. But if you so desire, 
+      make it private. You can change this later.
+    - Say YES to initializing with a `README`.
+    - For the `.gitignore` option, select `R` from the dropdown menu.
+    
+2. Add me as a collaborator:
 	- Click on "Settings" -> "Collaborators".
-	- Add the instructors: `vincenzocoia` and `firasm`
-	- Add the TA's (see note below)
-		- Alejandra: `aleurcelay`
-		- Hossam:    `hsmohammed`
-		- Victor:    `wvictor14`
-		- Yulia:     `yuliaUU`
-3. Submit your participation repo to canvas right away, by submitting a URL to the repo.
-    - Don't worry, we won't grade it until it's finished. 
+	- Add `bwiernik`
+	
+3. Submit a link to your participation repo to 
+   [Canvas](https://usflearn.instructure.com/courses/1481210). Do this right
+   away at the beginning of the semester.
+   - Don't worry, I won't grade it (or look at it) until after the deadline. 
 
-__Note__: If your participation repo is private, and you have a free GitHub account without the student developer pack, you will be limited to adding three collaborators. Add the instructors (`vincenzocoia` and `firasm`), along with the TA who will be grading your participation repo. Will be listed later. 
 
 ## Submitting your participation repository
 
-If you've completed Step 3 in the above "Setup" section, you don't have to do anything. We will grade your repository as it was on the last commit before the deadline.
-
+If you've completed Step 3 in the above "Setup" section, you don't have to do 
+anything at the end of the semester to submit your repo. I will grade your repo
+as it was on the last commit before the deadline.

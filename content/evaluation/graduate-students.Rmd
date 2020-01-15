@@ -1,0 +1,32 @@
+---
+title: "Graduate Students"
+date: "Updated `r Sys.Date()`"
+---
+
+Graduate students have several additional requirements for the course. 
+
+### Final Report
+For the [final report](/evaluation/final-report), graduate students must prepare
+a report that is related to their thesis or dissertation research.
+
+## Additional Project
+
+Graduate students must additionally complete _one_ of the following additional
+projects. Undergraduate students may complete these requirements for additional 
+credit.
+
+### Professional Website
+
+Students must create and deploy a website highlighting their skills, experience, 
+and professional portfolio, as appropriate to their professional goals. 
+
+### Shiny App, Web Tutorial, or Other Resource
+
+Students must create and deploy a web-based resource for a topic of interest. 
+This may include a blog post analyzing a dataset and presenting the results; a 
+web tutorial on an analytic, programming, visualization, experimental, or 
+workflow method; a Shiny app implementing a method of interest; or another topic. 
+
+## Schedule
+
+The additional projects will be due at 12:00 (Noon) on **Monday, 04 May 2019**.

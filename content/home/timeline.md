@@ -4,7 +4,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 40  # Order that this section will appear.
 
-title = "Timeline"
+title = "Class Meetings"
 subtitle = ""
 
 # Date format for experience
@@ -24,5 +24,15 @@ date_format = "2 January 2006"
   date_start = "2020-01-16"
   date_end = "2020-05-04"
   description = ""
+
+[[experience]]
+  title = "Office Hours"
+  company = "PCD 4137"
+  company_url = ""
+  location = "Thursdays 1230-1330"
+  date_start = "2020-01-16"
+  date_end = "2020-05-04"
+  description = ""
+
 
 +++

@@ -1,0 +1,45 @@
+---
+title: "Final Report"
+date: "Updated `r Sys.Date()`"
+---
+
+
+The last component of your evaluation fro the course will be a final report. 
+This is a mandatory part of the course (20% of overall course grade).
+
+For this report, you must:
+
+  * Choose a dataset to address a research question of interest to you.
+  * Import it to R
+  * Wrangle it
+  * Produce analytic results and visualizations to address your question
+  
+Your report should describe the research question and the nature of your dataset.
+It should then describe the initial state of the data, the process you use to wrangle
+the data, the analyses or visualizations you produce with the data, and the 
+substantive conclusions you draw.
+
+Several datasets will be provided in class, or you may procure your own.
+
+### Graduate Students
+
+For graduate students in the course, the final project must be related to your 
+thesis or dissertation research. It should include developing a data management 
+and analysis workflow for your paper. Depending on the nature of your project and 
+the state of data collection, the project may also include wrangling, exploring, 
+and visualizing your dataset, or it may entail using data simulations to 
+(1) develop a computational model for your hypothetical processes, 
+(2) generate and explore plausible data under alternative hypotheses, and/or 
+(3) conduct sample size planning for your data collection.
+
+
+## Schedule
+
+The final report will be due at 12:00 (Noon) on **Monday, 04 May 2019**.
+
+## Format
+
+The report should be prepared in APA format. The [papaja package](https://github.com/crsh/papaja) 
+is a useful tool for preparing documents in APA format. The [Zotero program](https://zotero.org/download)
+combined with the [BetterBibTeX plugin](https://github.com/retorquere/zotero-better-bibtex/releases) 
+is useful for formatting citations into your document. 

@@ -10,8 +10,7 @@ subtitle = ""
 
 # List user groups to display.
 #   Edit each user's `user_groups` to add them to one or more of these groups.
-# user_groups = ["Instructors",
-#                "Teaching Assistants"]
+user_groups = [""]
 +++
 
-Office hours can be found [here](/officehours).
+[//]: # (Office hours can be found [here](/officehours).)

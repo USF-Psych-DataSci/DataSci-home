@@ -1,4 +1,4 @@
-Peer-Review HW-xx for Jane Doe
+Peer Review of HW-xx for Jane Doe
 ----------------------------------------------------
 Topic                       | Excellent | Satisfactory | Needs Work |
 ----------------------------|-----|-----|-----|

@@ -72,6 +72,7 @@
 
     {{/* Only display widget title in explicit instances of about widget, not in author pages. */}}
     {{ if and $page.Params.widget $page.Title }}<h1>{{ $page.Title | markdownify | emojify }}</h1>{{ end }}
+    {{ if and $page.Params.widget $page.Params.subtitle }}<h2>{{ $page.Params.subtitle | markdownify | emojify }}</h2>{{ end }}
 
     {{ $person_page.Content }}
 

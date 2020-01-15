@@ -3,60 +3,60 @@ title: "Assignments"
 date: "Updated `r Sys.Date()`"
 ---
 
-Your hub for information related to assignments. 
+This page is your hub for information related to course assignments. 
 
 ## Schedule
 
-Here are the deadlines for assignments, with links (to appear after assignments are released).
+The table below gives deadlines for assignments. Links to the assignments will
+appear after the assignment is posted.
 
-A GitHub Issue will be posted in the [Announcements](https://github.com/STAT545-UBC-hw-2019-20/Announcements) repo whenever a new assignment is released. The students will be tagged too, so you should get an email notification with it as well.
+|  Assignment   | Topic                       |  Due Date   |
+|---------------|-----------------------------|-------------|
+| Assignment 01 | Github, Authoring           | 27 Jan 2020 |
+| Assignment 02 | _dplyr_, _ggplot2_          | 03 Feb 2020 |
+| Assignment 03 | More _dplyr_, _ggplot2_     | 10 Feb 2020 |
+| Assignment 04 | Wrangle those data!         | 17 Feb 2020 |
+| Assignment 05 | Factors and plotting        | 02 Mar 2020 |
+| Assignment 06 | Modeling fitting, _purrr_   | 23 Mar 2020 |
+| Assignment 07 | Simulating data             | 30 Mar 2020 |
+| Assignment 08 | Weird data structures       | 06 Apr 2020 |
+| Assignment 09 | Prepare and clean a dataset | 13 Apr 2020 |
 
-All submissions are due by 23:59. I highly recommend aiming to finish before the last lecture so that we can help you if need be!
+When a new assignment is posted, a GitHub Issue will be posted in the [Announcements](https://github.com/USF-Psych-DataSci-2020/Announcements) 
+repo. Students will be tagged, so you should get an email notification as well.
 
-### STAT 545A
+All assignments are due by 23:59 Monday. [Peer code reviews](/evaluation/peer-review) 
+are then due by 23:59 Tuesday. Final revisions to assignments are due by 23:59
+Wednesday. 
 
-| Assignment  | Assignment Due Date |
-|-------------|---------------------|
-| [Assignment 01](https://stat545.stat.ubc.ca/evaluation/hw01/hw01) | September 17, 2019  |
-| [Assignment 02](https://stat545.stat.ubc.ca/evaluation/hw02/hw02) | September 24, 2019  |
-| [Assignment 03](https://stat545.stat.ubc.ca/evaluation/hw03/hw03) | October 01, 2019    |
-| [Assignment 04](https://stat545.stat.ubc.ca/evaluation/hw04/hw04) | October 08, 2019    |
-| Assignment 05 | October 18, 2019    |
-
-### STAT 547M
-
-| Assignment  | Assignment Due Date |
-|-------------|---------------------|
-| Assignment 06 | |
-| Assignment 07 | |
-| Assignment 08 | |
-| Assignment 09 | |
-| Assignment 10 | |
-
-
-## Grading
-
-The assignments make use of [UBC MDS's rubrics](https://github.com/UBC-MDS/public/tree/master/rubric). Within each assignment, we let you know which rubrics are being used and where, along with their weighting. Each rubric typically has six "levels" defined by letter grades, which map to the following percentages as [defined by UBC](http://www.calendar.ubc.ca/Vancouver/index.cfm?tree=3,42,96,0):
-
-| Category | Grade Range |
-|----------|-------------|
-| No attempt (0)          | 0 |
-| Poor (F)                | 0 - 49% |
-| Unsatisfactory (D)      | 50% - 54% |
-| Satisfactory (C- to C+) | 55% - 67% |
-| Good (B- to B+)         | 68% - 79% |
-| Excellent (A- to A+)    | 80% - 100% |
+You don't necessarily need to have completed the assignment by the Monday due date,
+but this will limit your ability to benefit from your peer reviews. Please respect
+your peers' time by providing them as complete a product as possible to review. 
 
 
 ## Setting up your homework repository
 
-Your assignments will be developed and submitted to a single repository created by GitHub Classroom (note that this is different from your participation repository). To create the repository, just follow [this link](https://classroom.github.com/a/PAa_IIPO), and follow the instructions. Your homework repository will be created for you in the [STAT545-UBC-hw-2019-20](https://github.com/STAT545-UBC-hw-2019-20) Organization under the name `STAT545-hw-<your username>`. You only have to do this once.
+You will each create a single homework repository using GitHub Classroom where
+you will submit each of your assignments for the semester. (Note that this is 
+different from your in-class participation repo.)
+
+To create the repository, just follow [this link](https://classroom.github.com/a/MpvBEz_g), 
+and follow the instructions. Your homework repository will be created for you in the [USF-Psych-DataSci-2020](https://github.com/USF-Psych-DataSci-2020/) Organization 
+under the name `DataSci-hw-<your username>`. You only have to do this once.
 
 FYI: This repository is public.
 
+
 ## Working on your homework
 
-As you work on your assignment, you should commit and push your progress to GitHub. As a word of advice:
+When you begin working on an assignment, create a new
+[branch](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-and-deleting-branches-within-your-repository)
+in your homework repository. Give this branch a useful name (e.g., `hw01`). Work 
+on drafts of your assignments in this branch. This will help to facilitate peer 
+code review (see below).
+
+As you work on your assignment, you should commit and push your progress to 
+GitHub. As a word of advice:
 
 **Commit your work often!**
 
@@ -64,47 +64,120 @@ As you work on your assignment, you should commit and push your progress to GitH
 
 **Commit your work often!**
 
-Too many times, I see students wait until they finish their assignments to commit and push to GitHub. This is a very bad idea for at least two reasons:
+Too many times, I see students wait until they finish their assignments to 
+commit and push to GitHub. This is a very bad idea for at least two reasons:
 
-1. If you submit your work late, we are forced to give you the late penalty. But if you've been committing your work, we can at least look at your repo as it was after the latest commit before the deadline.
+1. If you submit your work late, I will have to give you the late penalty. But 
+   if you've been committing your work, I can at least look at your repo as it 
+   was after the latest commit before the deadline.
+   
 2. Your workflow will not be as effective as it could be by using version control.
+   If you make a change that breaks something, you won't be able to go back and 
+   isolate when the breakage happened.
+   
+   
+## Submitting your homework
 
-## Tidy Submission
+### Monday submission
 
-Each assignment will have some marks set aside for a "tidy" submission, which is defined here. If there's any further uncertainty in determining a grade for the tidy submission portion, the [UBC MDS mechanics rubric](https://github.com/UBC-MDS/public/blob/master/rubric/rubric_mech.md) will be referred to.
+First you are going to make your assignment available for peer review:
+
+1. If you're working locally (i.e., on your hard drive), push your work to your 
+   GitHub homework repository.
+
+2. Create a [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
+   from your homework branch to the `master` branch in your homework repo. 
+   [Requqest code reviews](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/requesting-a-pull-request-review) 
+   from your two assigned reviews by adding their names to review menu on the
+   right side of the screen.
+   
+3. Your classmates will review your code. After they have reviewed your code,
+   make any additional changes in response to their reviews or otherwise.
+   
+4. Once you have completed your revisions, [merge](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/merging-a-pull-request)
+   your pull request back into your `master` branch.
+   
+### Wednesday submission
+
+1. Merge your homework branch back into your `master` branch if you haven't already.
+   
+2. On your GitHub homework repository, [tag a release](https://help.github.com/articles/creating-releases/).
+   - As a "tag version", I recommend putting `hw1.0` for assignment 1, 
+     `hw2.0` for assignment 2, etc.
+ 	 - If you want to make changes to your release before the deadline, just tag a 
+ 	   new release like `hw1.1`.
+ 	   
+3. Go to the course page on [Canvas](https://usflearn.instructure.com/courses/1481210), 
+   and find the corresponding assignment submission. Submit a URL to the latest 
+   release of your assignment. 
+	 - You can find this by clicking on the "Release" button on your GitHub 
+	   homework repository, on (for example) the `hw1.0` text. 
+
+
+## Grading
+
+I will review each assignment on GitHub and provide you comments, as well as your
+overall grade for the assignment. 
+
+| Category                | Grade Range |
+|-------------------------|-------------|
+| No attempt (0)          | 00%         |
+| Poor (F)                | 00% – 59%   |
+| Unsatisfactory (D)      | 60% – 69%   |
+| Satisfactory (C− to C+) | 70% – 79%   |
+| Good (B− to B+)         | 80% – 89%   |
+| Excellent (A− to A+)    | 90% – 100%  |
+
+
+## Tidy submission
+
+Each assignment will have some marks set aside for a "tidy" submission.
 
 Before submitting your work, make sure it's tidy:
 
-- Each assignment should be self-contained in a folder within your STAT 545A homework repository, found in [the hw Org](https://github.com/STAT545-UBC-hw-2019-20).
-	- Special case for Assignment 01, which also evaluates your repo's `README.md` file.
-- Your work must be reproducible from beginning to end. That is, a member of the teaching team should be able to run all code error-free and reproduce the output files. 
-- Your scripts do not contain code that installs packages (this is not good practice anyway) – note that this is different from loading packages with the `library()` function, which is good!
-- All R Markdown files are `knit`ted to ~~an output readable on GitHub (probably `github_document` or `pdf_document`).~~ a readable output. This means linking to HTML files if you make them (see section on "Viewing and linking to HTML files"). You can also knit to `output: github_document` if you want a markdown file that renders nicely for GitHub.
+- Each assignment should be self-contained in a folder within your homework 
+  repo, found in [USF-Psych-DataSci-2020 Org](https://github.com/USF-Psych-DataSci-2020/).
+	- Exception for Assignment 01, which also evaluates your repo's `README.md` file.
+- Your work must be reproducible from beginning to end. That is, I must be able
+  to run all code error-free and reproduce the output files. 
+- Your scripts must not contain code that installs packages (this is not good 
+  practice anyway)—note that this is different from loading packages with the 
+  `library()` function, which is good!
+- All R Markdown files are `knit`ted to a readable output. This means linking to 
+  HTML files if you make them (see section on "Viewing and linking to HTML files"). 
+  You can also knit to `output: github_document` if you want a Markdown file that 
+  renders nicely for GitHub.
 
-Here is how you submit your homework:
-
-1. If you're working locally (i.e., on your hard drive), push your work to your GitHub homework repository.
-2. On your GitHub homework repository, [tag a release](https://help.github.com/articles/creating-releases/).
-	- As a "tag version", we recommend putting `hw1.0` for assignment 1, `hw2.0` for assignment 2, etc.
-	- If you want to make changes to your release before the deadline, just tag a new release like `hw1.1`.
-3. Go to the course page on [UBC canvas](https://canvas.ubc.ca), and find the corresponding assignment submission. Submit a URL to the latest release of your assignment. 
-	- You can find this by clicking on the "release" button on your GitHub homework repository, on (for example) the `hw1.0` text. 
 
 ## Viewing and linking to HTML files
 
-Viewing an HTML file on GitHub only shows you the HTML code, not the rendered script. You'll need to provide a link to a rendered, viewable version of each HTML file you produce. Here's how you do that using [_GitHub Pages_](https://pages.github.com/):
+Viewing an HTML file on GitHub only shows you the HTML code, not the rendered 
+script. You'll need to provide a link to a rendered, viewable version of each 
+HTML file you produce. Here's how you do that using [GitHub Pages](https://pages.github.com/):
 
 1. Enable "GitHub pages" on your repo:
-    - Go to "settings" on your repo, and stay on the default "Options" tab.
+    - Go to "Settings" on your repo and stay on the default "Options" tab.
     - Scroll down to the "GitHub Pages" section.
-    - Under "Source", click the "None" drop-down button, and select the branch you want to turn into a website (probably "Master").
-2. Also under the "GitHub Pages" section, you'll find your website URL. Make note of this URL.
-	- This URL will show a rendered version of your repo's README, but this is not important.
+    - Under "Source", click the "None" drop-down button, and select the branch 
+      you want to turn into a website (probably "master").
+      
+2. Also under the "GitHub Pages" section, you'll find your website URL. Make 
+   note of this URL.
+   - This URL will show a rendered version of your repo's README, but this is not 
+	   important.
+   - Just by enabling GitHub Pages, your HTML files are now viewable rendered by 
+     your browser. Technically, you just turned your GitHub repo into a website. 
+     The only trick is _navigating_ to that HTML page, since there's no default 
+     _interface_ to your website.
 
-Just by enabling GitHub Pages, your HTML files are now viewable rendered by your browser. Technically, you just turned your GitHub repo into a website. The only trick is _navigating_ to that HTML page, since there's no default _interface_ to your website.
-
-3. Obtain the URL to  HTML file on your repo:
-    - Start with your GitHub Pages URL that you made note of in Step 2. This points to the root of your repository. 
-    - Get the path to an HTML file you want to view. It should be something like `/path/to/file.html` (in this case, `file.html` lives in the `to` folder, which lives in the `path` folder in the root of your repo). 
-    - Append the path to the HTML file to your GitHub Pages URL. Try the URL to see that it works.
-4. Make it easy for a visitor to your repo to find the rendered HTML file! Add a link to the rendered HTML file somewhere in your repo, probably in a README file in your homework folder.
+3. Obtain the URL to HTML file on your repo:
+   - Start with your GitHub Pages URL that you made note of in Step 2. This points to the root of your repository. 
+   - Get the path to an HTML file you want to view. It should be something like 
+     `/path/to/file.html` (in this case, `file.html` lives in the `to` folder, 
+     which lives in the `path` folder in the root of your repo). 
+   - Append the path to the HTML file to the end of your GitHub Pages URL. Try 
+     the URL to see that it works.
+     
+4. Make it easy for a visitor to your repo to find the rendered HTML file! Add a 
+   link to the rendered HTML file somewhere in your repo, probably in a `README` 
+   file in your homework folder.

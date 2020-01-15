@@ -9,28 +9,35 @@ title = "Evaluation"
 [[feature]]
   icon = "pencil-ruler"
   icon_pack = "fas"
-  name = "<a href='/evaluation/assignments'>Assignments</a>"
+  name = "[Assignments](/evaluation/assignments)</a>"
   description = "50%"
+  width = 3
   
 [[feature]]
   icon = "user-friends"
   icon_pack = "fas"
-  name = "<a href='/evaluation/peer-review'>Peer Review</a>"
+  name = "[Peer Review](/evaluation/peer-review)</a>"
   description = "20%"  
+  width = 3
   
 [[feature]]
   icon = "thumbs-up"
   icon_pack = "fas"
-  name = "<a href='/evaluation/participation'>Participation</a>"
+  name = "[Participation](/evaluation/participation)</a>"
   description = "10%"
+  width = 3
 
 [[feature]]
   icon = "chart-bar"
   icon_pack = "fas"
-  name = "<a href='/evaluation/final-report'>Final Report</a>"
+  name = "[Final Report](/evaluation/final-report)"
   description = "20%"
+  width = 3
+
 +++
 
 Click on the following assessments to learn more about how your STAT 545A and STAT 547M grades are determined. Weights for each are indicated below.
 
-__Auditing students__: You must still complete and submit all assessments to be graded on a pass/fail basis. 
+**Auditing students:** You must still complete and submit all assessments to be graded on a pass/fail basis.
+
+**Graduate students:** You have [additional requirements](/evaluation/graduate-students). Undergraduate students may also complete these requirements for additional credit.

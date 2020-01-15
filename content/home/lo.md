@@ -39,6 +39,8 @@ subtitle = ""
  css_class = ""
 +++
 
+### Core topics
+
 - Introduction to [R](http://www.r-project.org) and the [RStudio IDE](http://www.rstudio.com/products/rstudio/): scripts, the workspace, RStudio Projects, daily workflow
 - Generate reproducible reports from R scripts and [R Markdown](http://rmarkdown.rstudio.com)
 - Coding style, file and project organization

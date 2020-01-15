@@ -8,7 +8,7 @@ Here are some philosophies that will get you far in data analytic work. We will 
 
 ## Conversation, and Getting Help
 
-Are you stuck? First, try to get unstuck by yourself by following the advice of [stat545.com: help-general](http://stat545.com/help-general.html).
+Are you stuck? First, try to get unstuck by yourself by following [this general help advice](help-general.html).
 
 While you are getting started, we recommend you seek help within the STAT545 community first, before, e.g. posting to external forums. We are more cuddly.
 
