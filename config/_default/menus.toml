@@ -10,7 +10,7 @@
 
 [[main]]
   name = "Guide"
-  url = "https://stat545guidebook.netlify.com"
+  url = "https://wiernik-datascience-guide.netlify.com/"
   weight = 20
 
 [[main]]
