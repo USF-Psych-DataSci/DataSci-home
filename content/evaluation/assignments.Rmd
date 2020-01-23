@@ -12,7 +12,7 @@ appear after the assignment is posted.
 
 |  Assignment   | Topic                       |  Due Date   |
 |---------------|-----------------------------|-------------|
-| Assignment 01 | Github, Authoring           | 27 Jan 2020 |
+| [Assignment 01](/evaluation/hw01/hw01) | Github, Authoring           | 27 Jan 2020 |
 | Assignment 02 | _dplyr_, _ggplot2_          | 03 Feb 2020 |
 | Assignment 03 | More _dplyr_, _ggplot2_     | 10 Feb 2020 |
 | Assignment 04 | Wrangle those data!         | 17 Feb 2020 |
@@ -87,7 +87,7 @@ First you are going to make your assignment available for peer review:
 
 2. Create a [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
    from your homework branch to the `master` branch in your homework repo. 
-   [Requqest code reviews](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/requesting-a-pull-request-review) 
+   [Request code reviews](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/requesting-a-pull-request-review) 
    from your two assigned reviews by adding their names to review menu on the
    right side of the screen.
    

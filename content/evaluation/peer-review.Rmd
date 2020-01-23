@@ -20,7 +20,7 @@ All submissions are due by 23:59.
 
 |  Peer Review   |  Due Date   |
 |----------------|-------------|
-| Peer Review 01 | 28 Jan 2020 |
+| [Peer Review 01](/evaluation/hw01/pr01) | 28 Jan 2020 |
 | Peer Review 02 | 04 Feb 2020 |
 | Peer Review 03 | 11 Feb 2020 |
 | Peer Review 04 | 18 Feb 2020 |

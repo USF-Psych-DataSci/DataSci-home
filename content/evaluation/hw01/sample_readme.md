@@ -11,7 +11,7 @@
 ## Overview
 **For your homework, you will be creating a readme document to introduce yourself to the class and experiment with the range of Markdown features.**
 
-The following readme document, however, is sillier and not meant to represent the type of readme document that you will be creating for your STAT 545a homework. Instead, it is meant to illustrate the range of what's possible in the world of Markdown. If you feel inspired by any part of this document, click the **raw** button above this file to see the source code that made it possible.
+The following readme document, however, is sillier and not meant to represent the type of readme document that you will be creating for your Data Science homework. Instead, it is meant to illustrate the range of what's possible in the world of Markdown. If you feel inspired by any part of this document, click the **raw** button above this file to see the source code that made it possible.
 
 ## Features
 
