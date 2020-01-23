@@ -33,15 +33,15 @@ Note: Usually, a tidy submission does not have this much weight, but I know that
 - You must use clear English writing, spelling, and grammar.
 - Your writing is concise. 
 
-## Exercise 1: Edit `README.md` (40%)
+## Exercise 1: Edit `README.md` (30%)
 
 ---
 
 Rubrics: 
 
-- Accuracy: (20%)
+- Accuracy: (10%)
 	- Does your markdown render properly, or are there mistakes like _this__ or (this)[www.example.com]?
-- Completeness: (20%)
+- completeness: (20%)
 	- Did you include at least five markdown features in your README? (= 4% each)
 
 ---
@@ -55,7 +55,7 @@ When writing your README, be sure to showcase at least five functionalities of G
 
 Here's a [sample readme file](https://github.com/USF-Psych-DataSci/DataSci-home/blob/master/content/evaluation/hw01/sample_readme.md) that goes way above and beyond what I'm looking for (aside from describing the repo).
 
-## Exercise 2: RMarkdown for Dataset exploration (35%)
+## Exercise 2: RMarkdown for Dataset exploration (30%)
 
 ---
 
@@ -64,7 +64,7 @@ Rubrics:
 - Accuracy: (20%)
 	- Did you use at least three functions?
 	- Given that you did, does your code run error-free?
-- Reasoning: (15%)
+- Reasoning: (10%)
 	- Does your exploration showcase the dataset?
 
 ---
@@ -87,3 +87,28 @@ and `.md` files and push them to GitHub.
 Give this a decent name, such as `hw01_gapminder.Rmd` (which will produce a 
 companion file, `hw01_gapminder.md`). These files should also be in a folder 
 called something like `hw01`.
+
+## Exercise 3: R Markdown presentation slides (15%)
+
+---
+
+Rubrics:
+
+- Accuracy: (5%)
+	- Did you manage to produce slides at all?
+- Reasoning: (10%)
+	- Is your slide deck formatted so that it actually looks like it could be a 
+	  presentation? I _am not referring to_ whether your slides would make an 
+	  _effective_ presentation (by, for example, minimizing your text and keeping 
+	  your slides simple). By "formatted", I mean things like:
+		  - Slides do not have text overflowing its boundaries
+		  - Sentences are not cut in half by a new slide.
+		  - At least some slides have titles.
+
+---
+
+Produce slides out of your data exploration using R Markdown -- for example, 
+using the `ioslides` or `xaringan` output. Don't worry, you won't be presenting 
+these -- the objective of this exercise is to see that you can make slides. 
+Feel free to make a new `.Rmd` file for this.
+
