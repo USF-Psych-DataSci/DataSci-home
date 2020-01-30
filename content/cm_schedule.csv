@@ -4,10 +4,9 @@
 2,1/23/2020,Authoring and Markdown
   ,  ,GitHub and version control
 3,1/30/2020,Exploring your data
-  ,  ,ggplot2 Part 1
-  ,  ,dplyr Part 1
-4,2/6/2020,dplyr Part 2
-  ,  ,ggplot2 Part 2
+  ,  ,ggplot2
+4,2/6/2020,Wrangle your data
+  ,  ,dplyr
 5,2/13/2020,"Tidy data, tidyr, pivoting"
   ,  ,A tale of two tables: join and lookup
 6,2/20/2020,File I/O and haven
