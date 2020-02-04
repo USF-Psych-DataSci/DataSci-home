@@ -51,8 +51,8 @@ p {
 
 /* Lists */
 ul, ol, dl {
-  margin-top: 0;
-  margin-bottom: 1rem;
+  margin-top: -1rem;
+  margin-bottom: 0rem;
 }
 
 ul.task-list {
