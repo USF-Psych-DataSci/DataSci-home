@@ -1,10 +1,7 @@
 ---
 title: "Participation Checklist"
-date: "Updated `r Sys.Date()`"
 ---
 
-# Participation Check List
- 
 Below you can find the check list with all the materials that need to be in your
 participation repo to get full participation points. 
 
