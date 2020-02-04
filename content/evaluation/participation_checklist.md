@@ -16,7 +16,6 @@ Instructor versions of the scripts run in class are provided for your reference.
     - [x] Share your username by filling out this [survey](https://usf.az1.qualtrics.com/jfe/form/SV_8kAdI0XraWU6geN)
     - [x] Create and populate `navigating_github.md` with several links
     
-    <br>
    **Class Meeting 1b: Introduction to R**   
     - [x] Provide the R script `s01_exploring_R.R` (or `cm002_R_exploration.R`) file. Instructor version can be found [here](https://github.com/bwiernik/DataSci-participation/blob/master/tools/s01_exploring_R.R)
     
@@ -27,7 +26,6 @@ Instructor versions of the scripts run in class are provided for your reference.
    - [x] Upload `rmd_exploration.Rmd` and its output formats (`md` and `html`)
    - [x] _Optional:_ Upload `rmd_exploration-slides.Rmd` both as `Rmd` and `html` formats
    
-   <br>
    **Class Meeting 2b The version control workflow**   
    - [x] Move all of the above files above into a folder called `tools` in your participation repo.
    
