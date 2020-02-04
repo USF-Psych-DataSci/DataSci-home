@@ -20,7 +20,7 @@ Specifically, your participation component will be evaluated by the completeness
 of your repository. You'll be prompted in class when you should be contributing 
 to your participation repository. 
 
-A checklist for your participation repo is [here](/evaluation/participation_checklist.html).
+A checklist for your participation repo is [here](/evaluation/participation_checklist).
 This checklist will be updated each week of the semester to indicate what should
 be included in your participation repo from that week.
 
