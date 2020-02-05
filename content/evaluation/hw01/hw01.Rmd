@@ -1,6 +1,5 @@
 ---
 title: "Data Science and Programming Assignment 01: Tools for data analytic work"
-date: Last updated `r format(Sys.time(), "%d %B, %Y")`
 ---
 
 __Due January 29, 2020 at 23:59__
@@ -24,7 +23,7 @@ As you work on the assignment, you are welcome to work from the browser (i.e., d
 
 ## Tidy Submission (20%)
 
-Follow the instructions for making a tidy submission, found on the [assignments home page](https://wiernik-datasci.netlify.com/evaluation/assignments).
+Follow the instructions for making a tidy submission, found on the [assignments home page](/evaluation/assignments).
 
 Note: Usually, a tidy submission does not have this much weight, but I know that this part is not trivial for your first time. A tidy submission involves using the tools taught in Week 1, and this is what this assignment is all about.
 

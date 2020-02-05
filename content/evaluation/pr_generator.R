@@ -18,7 +18,6 @@ assignments <-
          "jmkralik",
      "joannalawler",
          "Gmackay3",
-  "[Brant Metzger]",
          "ecmonson",
      "alicesonorbe",
          "bpeluffo",
@@ -33,13 +32,17 @@ assignments <-
     "MZimmerman321"
   ) %>%
   mutate(
-    self = 1:28,
-    r1 = sample(1:28, 28, replace = FALSE),
-    r2 = sample(1:28, 28, replace = FALSE)
+    self = 1:27,
+    r1 = sample(1:27, 27, replace = FALSE),
+    r2 = sample(1:27, 27, replace = FALSE)
     ) %>%
   mutate(pr1 = names[r1], pr2 = names[r2])
 
-assignments[24:25, 4] <- assignments[c(25, 24), 4]
+filter(assignments, r1 == r2)
+filter(assignments, self == r1)
+filter(assignments, self == r2)
+
+assignments[c(3, 7, 10, 17, 21), c(4, 6)] <- assignments[c(17, 3, 21, 10, 7), c(4, 6)]
 
 any(assignments$r1 == assignments$r2)
 any(assignments$self == assignments$r1)
@@ -52,5 +55,5 @@ assignments %>%
   transmute(Name = names,
             `To Review` = paste("Please review", pr1, "and", pr2),
             `Will Review` = paste("You will be reviewed by", will_rev_1, "and", will_rev_2)) %>%
-  write.table("clipboard", sep = "\t", row.names = FALSE)
+  write.table("clipboard", sep = "\t", row.names = FALSE, quote = FALSE)
 

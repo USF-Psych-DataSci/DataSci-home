@@ -13,9 +13,9 @@ appear after the assignment is posted.
 |  Assignment   | Topic                       |  Due Date   |
 |---------------|-----------------------------|-------------|
 | [Assignment 01](/evaluation/hw01/hw01) | Github, Authoring           | 27 Jan 2020 |
-| Assignment 02 | _dplyr_, _ggplot2_          | 03 Feb 2020 |
-| Assignment 03 | More _dplyr_, _ggplot2_     | 10 Feb 2020 |
-| Assignment 04 | Wrangle those data!         | 17 Feb 2020 |
+| [Assignment 02](/evaluation/hw02/hw02) | _dplyr_, _ggplot2_          | 10 Feb 2020 |
+| Assignment 03 | More _dplyr_, _ggplot2_     | 17 Feb 2020 |
+| Assignment 04 | Wrangle those data!         | 24 Feb 2020 |
 | Assignment 05 | Factors and plotting        | 02 Mar 2020 |
 | Assignment 06 | Modeling fitting, _purrr_   | 23 Mar 2020 |
 | Assignment 07 | Simulating data             | 30 Mar 2020 |
