@@ -40,9 +40,7 @@ Instructor versions of the scripts run in class are provided for your reference.
    
 4. **Class Meeting 4 Intro to data wrangling** 
    - Make a new `wrangling` folder for these files.
-   - Complete the [s04a_data-wrangling_p1-exercise.Rmd](https://github.com/USF-Psych-DataSci/Classroom/raw/master/tutorials/s04a_data-wrangling_p1-exercise.Rmd) worksheet.
-     - A completed instructor version is available [here](https://github.com/bwiernik/DataSci-participation/blob/master/wrangling/s04a_data-wrangling_p1-exercise.Rmd).
-   - Complete the [s04b_data-wrangling_p2-exercise.Rmd](https://github.com/USF-Psych-DataSci/Classroom/raw/master/tutorials/v) worksheet. 
-     - A completed instructor version is available [here](https://github.com/bwiernik/DataSci-participation/blob/master/wrangling/s04b_data-wrangling_p2-exercise.Rmd)
-   - Submit `.Rmd` files and a knitted version of your choice (`md`, `html`, or `pdf` format).
+   - Complete the [s04_data-wrangling-exercise.Rmd](https://github.com/USF-Psych-DataSci/Classroom/raw/master/tutorials/s04_data-wrangling-exercise.Rmd) worksheet.
+     - A completed instructor version is available [here](https://github.com/bwiernik/DataSci-participation/blob/master/wrangling/s04_data-wrangling-exercise.Rmd).
+   - Submit the `.Rmd` file and a knitted version of your choice (`md`, `html`, or `pdf` format).
 
