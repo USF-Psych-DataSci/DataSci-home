@@ -143,10 +143,10 @@ Before submitting your work, make sure it's tidy:
 - Your scripts must not contain code that installs packages (this is not good 
   practice anyway)—note that this is different from loading packages with the 
   `library()` function, which is good!
-- All R Markdown files are `knit`ted to a readable output. This means linking to 
-  HTML files if you make them (see section on "Viewing and linking to HTML files"). 
-  You can also knit to `output: github_document` if you want a Markdown file that 
-  renders nicely for GitHub.
+- All R Markdown files are `knit`ted to a readable output. This means knitting 
+  to HTML, with the `keep_md: TRUE` option enabled. In addition, you should link
+  to the HTML files in the README file for the week's assignment folder (see 
+  the section on "Viewing and linking to HTML files").
 
 
 ## Viewing and linking to HTML files
