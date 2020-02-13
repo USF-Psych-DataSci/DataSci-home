@@ -1,0 +1,7 @@
+### GitHub Pages (6%) **NEW**
+
+From now on, whenever you produce an HTML file output, you are expected to make it viewable as a webpage -- for example, through GitHub Pages. There are / will be instructions added to the [assignments home page](https://stat545.stat.ubc.ca/evaluation/assignments/) on how to do this with GitHub Pages.
+
+You should also provide links to these HTML pages in an easy-to-find location, __and__ use words to describe what the link brings you to -- probably in a `README.md` file in your `hw03` folder. Remember, make your homework submission informative to someone who doesn't know anything about your homework repository -- do not rely on the contextual knowledge that the teaching team has about your homework submission.
+
+For this homework assignment, you are expected to produce at least one html page, and link to it. You might not be required to submit an html page for future assignments, but if you do, you will be expected to link to them.
