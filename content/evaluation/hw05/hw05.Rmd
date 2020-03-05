@@ -72,6 +72,7 @@ final project. Some potential sources for datasets include:
   - Data from your own research work or experience
   
 The requirements for this dataset:
+
   - It cannot be already available as an R package like `gapminder`, `nycflights13`,
     or one of the datasets in `datasets`
     - It's okay if there is any R package you use to download the data, such as
@@ -82,6 +83,7 @@ The requirements for this dataset:
 Talk to me if you are having trouble finding an interesting or suitable dataset!
 
 Once you have identified a dataset, download it and place it in your `data` folder.
+
   - If this is data you are downloading from the internet, write and run a
     .R script to download the dataset
     - Hint: Try to write this as a separate .R file from your homework .Rmd file
