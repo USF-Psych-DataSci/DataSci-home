@@ -42,7 +42,7 @@ filter(assignments, r1 == r2)
 filter(assignments, self == r1)
 filter(assignments, self == r2)
 
-assignments[c(13, 20), c(3, 5)] <- assignments[c(20, 13), c(3, 5)]
+assignments[c(15, 27), c(3, 5)] <- assignments[c(27, 15), c(3, 5)]
 
 assignments[c(17, 18), c(4, 6)] <- assignments[c(18, 17), c(4, 6)]
 

@@ -16,11 +16,12 @@ appear after the assignment is posted.
 | [Assignment 02](/evaluation/hw02/hw02) | _dplyr_, _ggplot2_          | 10 Feb 2020 |
 | [Assignment 03](/evaluation/hw03/hw03) | Data exploration report     | 17 Feb 2020 |
 | [Assignment 04](/evaluation/hw04/hw04) | Wrangle those data!         | 02 Mar 2020 |
-| Assignment 05 | Factors and plotting        | 02 Mar 2020 |
-| Assignment 06 | Modeling fitting, _purrr_   | 23 Mar 2020 |
-| Assignment 07 | Simulating data             | 30 Mar 2020 |
-| Assignment 08 | Weird data structures       | 06 Apr 2020 |
-| Assignment 09 | Prepare and clean a dataset | 13 Apr 2020 |
+| [Assignment 05](/evaluation/hw05/hw05) | Project organization        | 09 Mar 2020 |
+| Assignment    | Factors and plotting        | 02 Mar 2020 |
+| Assignment    | Modeling fitting, _purrr_   | 23 Mar 2020 |
+| Assignment    | Simulating data             | 30 Mar 2020 |
+| Assignment    | Weird data structures       | 06 Apr 2020 |
+| Assignment    | Prepare and clean a dataset | 13 Apr 2020 |
 
 When a new assignment is posted, a GitHub Issue will be posted in the [Announcements](https://github.com/USF-Psych-DataSci-2020/Announcements) 
 repo. Students will be tagged, so you should get an email notification as well.

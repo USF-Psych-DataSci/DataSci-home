@@ -1,0 +1,41 @@
+---
+title: "Peer Reivew Assignment 03"
+---
+
+__Due February 18, 2020 at 23:59__
+
+
+```{r, echo = FALSE}
+pr <- tibble::tribble(
+              ~Name,                                         ~To.Review,                                              ~Will.Review,
+     "SarahAttaway",         "Please review Jenkins16 and joannalawler",         "You will be reviewed by Jenkins16 and vieirak97",
+       "ansley9521",        "Please review akpernice and melissapierre",         "You will be reviewed by gooberglob and ecmonson",
+     "ElisaCarsten",     "Please review MZimmerman321 and JerrySlutsky",     "You will be reviewed by JerrySlutsky and gooberglob",
+      "alliechoate",          "Please review mcloutier96 and sgranitto",    "You will be reviewed by alexsciuto and marianruiz002",
+      "mcloutier96",           "Please review sgranitto and alexsciuto",        "You will be reviewed by alliechoate and bpeluffo",
+        "lconover1",  "Please review oliviagasparoni and MZimmerman321",   "You will be reviewed by oliviagasparoni and sgranitto",
+       "wesley4546",         "Please review agregory3 and alicesonorbe",        "You will be reviewed by vieirak97 and alexsciuto",
+  "oliviagasparoni",            "Please review lconover1 and agregory3",         "You will be reviewed by lconover1 and agregory3",
+        "sgranitto",         "Please review alicesonorbe and lconover1",     "You will be reviewed by mcloutier96 and alliechoate",
+        "agregory3", "Please review kaitlinwhite19 and oliviagasparoni",  "You will be reviewed by wesley4546 and oliviagasparoni",
+       "gooberglob",        "Please review ansley9521 and ElisaCarsten", "You will be reviewed by alicesonorbe and kaitlinwhite19",
+        "Jenkins16",          "Please review SarahAttaway and ecmonson",        "You will be reviewed by SarahAttaway and siplink",
+         "jmkralik",              "Please review siplink and akpernice",      "You will be reviewed by Gmackay3 and MZimmerman321",
+     "joannalawler",   "Please review melissapierre and kaitlinwhite19", "You will be reviewed by kaitlinwhite19 and SarahAttaway",
+         "Gmackay3",              "Please review jmkralik and bpeluffo",     "You will be reviewed by marianruiz002 and akpernice",
+         "ecmonson",           "Please review vieirak97 and ansley9521",           "You will be reviewed by siplink and Jenkins16",
+     "alicesonorbe",       "Please review gooberglob and marianruiz002",        "You will be reviewed by sgranitto and wesley4546",
+         "bpeluffo",         "Please review alexsciuto and mcloutier96",      "You will be reviewed by MZimmerman321 and Gmackay3",
+        "akpernice",          "Please review JerrySlutsky and Gmackay3",         "You will be reviewed by ansley9521 and jmkralik",
+    "melissapierre",          "Please review marianruiz002 and siplink",     "You will be reviewed by joannalawler and ansley9521",
+    "marianruiz002",           "Please review Gmackay3 and alliechoate",  "You will be reviewed by melissapierre and alicesonorbe",
+       "alexsciuto",         "Please review alliechoate and wesley4546",        "You will be reviewed by bpeluffo and mcloutier96",
+          "siplink",             "Please review ecmonson and Jenkins16",      "You will be reviewed by jmkralik and melissapierre",
+     "JerrySlutsky",         "Please review ElisaCarsten and vieirak97",      "You will be reviewed by akpernice and ElisaCarsten",
+        "vieirak97",        "Please review wesley4546 and SarahAttaway",       "You will be reviewed by ecmonson and JerrySlutsky",
+   "kaitlinwhite19",        "Please review joannalawler and gooberglob",      "You will be reviewed by agregory3 and joannalawler",
+    "MZimmerman321",              "Please review bpeluffo and jmkralik",      "You will be reviewed by ElisaCarsten and lconover1"
+  )
+
+knitr::kable(pr)
+```
