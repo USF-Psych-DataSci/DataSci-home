@@ -20,7 +20,6 @@ assignments <-
          "Gmackay3",
          "ecmonson",
      "alicesonorbe",
-         "bpeluffo",
         "akpernice",
     "melissapierre",
     "marianruiz002",

@@ -12,7 +12,7 @@ pr <- tibble::tribble(
        "ansley9521",        "Please review akpernice and melissapierre",         "You will be reviewed by gooberglob and ecmonson",
      "ElisaCarsten",     "Please review MZimmerman321 and JerrySlutsky",     "You will be reviewed by JerrySlutsky and gooberglob",
       "alliechoate",          "Please review mcloutier96 and sgranitto",    "You will be reviewed by alexsciuto and marianruiz002",
-      "mcloutier96",           "Please review sgranitto and alexsciuto",        "You will be reviewed by alliechoate and bpeluffo",
+      "mcloutier96",           "Please review sgranitto and alexsciuto",        "You will be reviewed by alliechoate and Gmackay3",
         "lconover1",  "Please review oliviagasparoni and MZimmerman321",   "You will be reviewed by oliviagasparoni and sgranitto",
        "wesley4546",         "Please review agregory3 and alicesonorbe",        "You will be reviewed by vieirak97 and alexsciuto",
   "oliviagasparoni",            "Please review lconover1 and agregory3",         "You will be reviewed by lconover1 and agregory3",
@@ -22,10 +22,9 @@ pr <- tibble::tribble(
         "Jenkins16",          "Please review SarahAttaway and ecmonson",        "You will be reviewed by SarahAttaway and siplink",
          "jmkralik",              "Please review siplink and akpernice",      "You will be reviewed by Gmackay3 and MZimmerman321",
      "joannalawler",   "Please review melissapierre and kaitlinwhite19", "You will be reviewed by kaitlinwhite19 and SarahAttaway",
-         "Gmackay3",              "Please review jmkralik and bpeluffo",     "You will be reviewed by marianruiz002 and akpernice",
+         "Gmackay3",           "Please review jmkralik and mcloutier96",     "You will be reviewed by marianruiz002 and akpernice",
          "ecmonson",           "Please review vieirak97 and ansley9521",           "You will be reviewed by siplink and Jenkins16",
      "alicesonorbe",       "Please review gooberglob and marianruiz002",        "You will be reviewed by sgranitto and wesley4546",
-         "bpeluffo",         "Please review alexsciuto and mcloutier96",      "You will be reviewed by MZimmerman321 and Gmackay3",
         "akpernice",          "Please review JerrySlutsky and Gmackay3",         "You will be reviewed by ansley9521 and jmkralik",
     "melissapierre",          "Please review marianruiz002 and siplink",     "You will be reviewed by joannalawler and ansley9521",
     "marianruiz002",           "Please review Gmackay3 and alliechoate",  "You will be reviewed by melissapierre and alicesonorbe",
@@ -34,7 +33,7 @@ pr <- tibble::tribble(
      "JerrySlutsky",         "Please review ElisaCarsten and vieirak97",      "You will be reviewed by akpernice and ElisaCarsten",
         "vieirak97",        "Please review wesley4546 and SarahAttaway",       "You will be reviewed by ecmonson and JerrySlutsky",
    "kaitlinwhite19",        "Please review joannalawler and gooberglob",      "You will be reviewed by agregory3 and joannalawler",
-    "MZimmerman321",              "Please review bpeluffo and jmkralik",      "You will be reviewed by ElisaCarsten and lconover1"
+    "MZimmerman321",            "Please review alexsciuto and jmkralik",      "You will be reviewed by ElisaCarsten and lconover1"
   )
 
 knitr::kable(pr)
