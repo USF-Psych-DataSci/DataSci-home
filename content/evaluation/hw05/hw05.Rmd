@@ -47,12 +47,17 @@ should probably include in this folder structure are:
   
   - An RStudio Project .Rproj file in the folder root
   - A `data` folder that holds the relevant data files for the project
-  - A `scripts` folder that will hold your analysis scripts
+    - Could also have separate `data-raw` and `data` folders
+  - A `markdown` folder that will hold your RMarkdown manuscripts
   - An `output` folder that will hold your output files
     - Depending on how many figures and other output files you may have, 
-      you might want to split this into `figures`, `reports`, etc. folders
-  - Other subfolders as needed
-
+      you might want to split/subfolder this into `figures`, `reports`, etc.
+  - Other subfolders as needed, e.g.:
+    - `admin` for adminstrative documents (e.g., IRB approval, grant information)
+    - `doc` for documentation (e.g., variable codebooks), 
+    - `scripts` or `src` or `R` as a place to store functions and scripts that 
+      you call from your markdown (e.g., a data import and cleaning script)
+      
 All of these folders should be described in your README.md file for this project.
 
 ## Step 2: Find, download, and document a dataset (40%)
