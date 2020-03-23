@@ -42,8 +42,8 @@ subtitle = ""
 ### Changes to course responding to Covid-19
 
 - Only two graded components will still occur:
-  - Final project
-  - Participation repo
+  1. Final project
+  1. Participation repo
   - There will be no further required weekly assignments or peer review
   - Grad students are exempted from their extra assignment
 - Class meetings
@@ -56,4 +56,9 @@ subtitle = ""
   - I understand that you may be distracted, anxious, have other priorities
     - Please do not prioritize this class if you have more important concerns
   - Final grading will be generous and considerate of the current situation 
+- Office Hours
+  - I can be available on the video chat app of your choice to answer questions 
+    and help you figure things out
+  - I can be available Thursdays during the regular class time and other times
+  - Contact me to arrange a time to call
 
