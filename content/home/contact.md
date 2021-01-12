@@ -1,3 +1,4 @@
+<!-- 
 +++
 widget = "featurette"  
 headless = true  # This file represents a page section.
@@ -27,7 +28,8 @@ title = "Contact"
   description = "Discussion related to your submissions."
   width = 4
 +++
+-->
 
-Contact me through GitHub Issues in one of these three venues; use email if your message should be private. 
+Contact me through Teams messages or by creating an Issue on your GitHub repository and tagging me @bwiernik. 
 
 [//]: # ([Find out who you should be contacting for what](/whotocontact).)

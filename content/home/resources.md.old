@@ -9,7 +9,7 @@ title = "Resources"
 [[feature]]
   icon = "book-open"
   icon_pack = "fas"
-  name = "[Guidebook](https://wiernik-datasci-guide.netlify.com/)"
+  name = "[Guidebook](https://dataprog-guide.netlify.com/)"
   description = "Lecture notes and class activities"
   width = 4
 
@@ -20,11 +20,11 @@ title = "Resources"
   description = "Detailed books and resources for programming in R" 
   width = 4
 
-[[feature]]
-  icon = "question"
-  icon_pack = "fas"
-  name = "[FAQ](/faq)"
-  description = "For prospective students"
-  width = 4
+# [[feature]]
+#   icon = "question"
+#   icon_pack = "fas"
+#   name = "[FAQ](/faq)"
+#   description = "For prospective students"
+#   width = 4
 +++
 

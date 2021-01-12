@@ -50,7 +50,7 @@ align = "center"
 
 ## Attribution
 
-[Jenny Bryan](https://jennybryan.org/) deserves a huge amount of credit for founding and developing the STAT 545 course at the University of British Columbia, on which this course is based, as well as her TA's and the ongoing instructors of that course. Thank you!
+[Jenny Bryan](https://jennybryan.org/) deserves a huge amount of credit for founding and developing the STAT 545 course at the University of British Columbia, on which this course is based. Thank you!
 
 <p style="text-align:center">
   <br />Edit this site on <a href = "https://github.com/USF-Psych-DataSci/DataSci-home">github</a>
