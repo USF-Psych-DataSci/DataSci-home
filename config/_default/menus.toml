@@ -14,12 +14,6 @@
   weight = 20
 
 [[main]]
-  name = "Resources"
-  url = "#resources"
-  weight = 25
-
-
-[[main]]
   name = "Structure"
   url = "#structure"
   weight = 25
