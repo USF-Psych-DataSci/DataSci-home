@@ -20,13 +20,13 @@ credit.
 Students must create and deploy a website highlighting their skills, experience, 
 and professional portfolio, as appropriate to their professional goals. 
 
-### Shiny App, Web Tutorial, or Other Resource
+### R Package, Shiny App, Web Tutorial, or Other Resource
 
-Students must create and deploy a web-based resource for a topic of interest. 
+Students must create and deploy an R package or web-based resource for a topic of interest. 
 This may include a blog post analyzing a dataset and presenting the results; a 
 web tutorial on an analytic, programming, visualization, experimental, or 
 workflow method; a Shiny app implementing a method of interest; or another topic. 
 
 ## Schedule
 
-The additional projects will be due at 12:00 (Noon) on **Monday, 04 May 2019**.
+The due dates for these additional projects will be announced.
