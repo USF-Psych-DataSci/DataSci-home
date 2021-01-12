@@ -14,7 +14,7 @@ name: ""
 #   link: 'https://github.com/USF-Psych-DataSci-2020/Discussion'
 ---
 
-This is the course website for the 2020 edition of the course taught in the Pscyhology Department at the University of South Florida (USF).
+This is the course website for the 2021 edition of the course taught in the Psychology Department at the University of South Florida (USF).
 
 This course is designed to help you:
 

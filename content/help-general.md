@@ -14,8 +14,7 @@ The links below contain excellent self-help advice.
 
 One of the great things about working in R is that the R community online is 
 amazingly friendly and helpful. That said, when you are just getting started, 
-I recommend you [ask me or your peers in class](https://github.com/USF-Psych-DataSci-2020/Discussion) 
-first, before posting to external forums. This will help give you practice forming
+I recommend you ask me or your peers in the Discussion channel on Teams first, before posting to external forums. This will help give you practice forming
 clear and precise questions that will permit others to be most helpful to you.
 
 Here are some good resources to get your head in the right place.
