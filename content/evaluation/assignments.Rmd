@@ -10,21 +10,21 @@ This page is your hub for information related to course assignments.
 The table below gives deadlines for assignments. Links to the assignments will
 appear after the assignment is posted.
 
-|  Assignment   | Topic                       |  Due Date   |
-|---------------|-----------------------------|-------------|
-|               |                             |             |
+|  Assignment   | Topic                       |
+|---------------|-----------------------------|
+| [Assignment 01](/evaluation/hw01/hw01) | Github, Markdown |
+
 
 <!--
-| Assignment | Github, Authoring           | 27 Jan 2020 |
-| Assignment | _dplyr_, _ggplot2_          | 10 Feb 2020 |
-| Assignment | Data exploration report     | 17 Feb 2020 |
-| Assignment | Wrangle those data!         | 02 Mar 2020 |
-| Assignment | Project organization        | 09 Mar 2020 |
-| Assignment    | Factors and plotting        | 02 Mar 2020 |
-| Assignment    | Modeling fitting, _purrr_   | 23 Mar 2020 |
-| Assignment    | Simulating data             | 30 Mar 2020 |
-| Assignment    | Weird data structures       | 06 Apr 2020 |
-| Assignment    | Prepare and clean a dataset | 13 Apr 2020 |
+| Assignment | _dplyr_, _ggplot2_          |
+| Assignment | Data exploration report     |
+| Assignment | Wrangle those data!         |
+| Assignment | Project organization        |
+| Assignment    | Factors and plotting        | 
+| Assignment    | Modeling fitting, _purrr_   | 
+| Assignment    | Simulating data             | 
+| Assignment    | Weird data structures       | 
+| Assignment    | Prepare and clean a dataset | 
 -->
 
 When a new assignment is posted, I'll give a message in Teams as well.
