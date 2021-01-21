@@ -1,6 +1,5 @@
 ---
 title: "Peer Code Reviews"
-date: "Updated `r Sys.Date()`"
 ---
 
 

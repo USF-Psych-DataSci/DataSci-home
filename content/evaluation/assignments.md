@@ -1,6 +1,5 @@
 ---
 title: "Assignments"
-date: "Updated `r Sys.Date()`"
 ---
 
 This page is your hub for information related to course assignments. 
