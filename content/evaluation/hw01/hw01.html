@@ -1,26 +1,23 @@
 ---
-title: "Data Science and Programming Assignment 01: Tools for data analytic work"
+title: "Assignment 01: Tools for data analytic work"
 ---
 
 <script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
-<link href="/rmarkdown-libs/anchor-sections/anchor-sections.css" rel="stylesheet" />
-<script src="/rmarkdown-libs/anchor-sections/anchor-sections.js"></script>
 
 
-<p><strong>Due January 29, 2020 at 23:59</strong></p>
 <div id="objective" class="section level2">
 <h2>Objective</h2>
-<p>This assignment was designed to give you practice with the tools discussed in the first two weeks: GitHub, R, (R) Markdown, and git. You’ll be:</p>
+<p>This assignment was designed to give you practice with the tools discussed in the first two weeks: R, (R)Markdown, and GitHub. You’ll be:</p>
 <ul>
-<li>Developing of a simple repository with GitHub; perhaps git too</li>
-<li>Authoring in GitHub-flavoured markdown and R markdown</li>
+<li>Developing of a simple repository with GitHub;</li>
+<li>Authoring in Markdown and RMarkdown</li>
 <li>Coding in R through data exploration</li>
 <li>Generating output from (<code>.Rmd</code>) source using RStudio.</li>
 </ul>
-<p>As you work on the assignment, you are welcome to work from the browser (i.e., directly on GitHub), but I encourage you to pilot a more powerful workflow:</p>
+<p>As you work on the assignment, use the workflow we talked about in class:</p>
 <ul>
-<li>Pull from GitHub (just an empty precaution now, but will matter when you collaborate with others).</li>
-<li>Make changes locally to local files – RStudio is a great Markdown editor! Click Preview to see how it’s going to look!</li>
+<li>Pull from GitHub.</li>
+<li>Make changes locally to local files. Use the Preview/Knit button in RMarkdown to see what your Markdown will look like when rendered.</li>
 <li>Save your changes.</li>
 <li>Commit your changes to your repo.</li>
 <li>Push the commit to GitHub.</li>
@@ -34,7 +31,7 @@ title: "Data Science and Programming Assignment 01: Tools for data analytic work
 <div id="writing-5" class="section level2">
 <h2>Writing (5%)</h2>
 <ul>
-<li>You must use clear English writing, spelling, and grammar.</li>
+<li>You must use clear writing, spelling, and grammar.</li>
 <li>Your writing is concise.</li>
 </ul>
 </div>
@@ -77,18 +74,16 @@ title: "Data Science and Programming Assignment 01: Tools for data analytic work
 </ul></li>
 </ul>
 <hr />
-<p>Make an R Markdown document that explores a dataset, such as <code>gapminder</code> or
-<code>psych::bfi</code> seen in class. You don’t need an extensive exploration in order to
-get a good grade here. You just need enough to show someone reading your report
-some of the features of the dataset beyond just printing it to screen.</p>
-<p>For example, what is the general structure of the dataset? How many rows does it
-have? How many colums? What are the descriptive statistics for some of the
-important variables?</p>
+<p>Make an R Markdown document that explores a dataset, such as <code>palmerpenguins::penguins</code>, <code>gapminder::gapminder</code>, or <code>psych::bfi</code> seen in class.
+You don’t need an extensive exploration here.
+You just need enough to show someone reading your report some of the features of the dataset beyond just printing it to screen.</p>
+<p>For example, what is the general structure of the dataset?
+How many rows does it have? How many colums?
+What are the descriptive statistics for some of the important variables?</p>
 <p>You should demonstrate the use of at least three functions.</p>
-<p>Don’t forget! Your “tidy submission” marks relies on you rendering your
-RMarkdown file to the <code>github_document</code> output format. Commit both the <code>.Rmd</code>
-and <code>.md</code> files and push them to GitHub.</p>
-<p>Give this a decent name, such as <code>hw01_gapminder.Rmd</code> (which will produce a
-companion file, <code>hw01_gapminder.md</code>). These files should also be in a folder
-called something like <code>hw01</code>.</p>
+<p>Don’t forget!
+Your “tidy submission” marks relies on you rendering your RMarkdown file to <strong>both</strong> the <code>github_document</code> and <code>html_document</code> output formats.
+Commit all three of the <code>.Rmd</code>, <code>.html</code>, and <code>.md</code> files and push them to GitHub.</p>
+<p>Give this a decent name, such as <code>hw01_exploring_data.Rmd</code> (which will produce output files, <code>hw01_exploring_data.md</code> and <code>hw01_exploring_data.html</code>).
+These files should also be in a folder called something like <code>hw01</code>.</p>
 </div>
