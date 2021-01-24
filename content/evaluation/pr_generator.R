@@ -15,7 +15,7 @@ assignments <-
     "Naidantu",
     "ncaliskan",
     "njie-DP",
-    "roxnnefelig",
+    "roxannefelig",
     "samanthashepard",
     "samruddhis",
     "sejalkesh",
