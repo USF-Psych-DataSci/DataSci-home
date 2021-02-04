@@ -12,10 +12,10 @@ appear after the assignment is posted.
 |  Assignment   | Topic                       |
 |---------------|-----------------------------|
 | [Assignment 01](/evaluation/hw01/hw01) | Github, Markdown |
+| [Assignment 02](/evaluation/hw02/hw02) | _dplyr_, _ggplot2_ |
 
 
 <!--
-| Assignment | _dplyr_, _ggplot2_          |
 | Assignment | Data exploration report     |
 | Assignment | Wrangle those data!         |
 | Assignment | Project organization        |
@@ -73,7 +73,7 @@ First you are going to make your assignment available for peer review:
 
 1. Commit and push your work to your GitHub homework repository.
 2. Create a [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) from your homework branch to the `master` or `main` branch in your homework repo.
-3. [Request code reviews](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/requesting-a-pull-request-review) from your two assigned reviews by adding their names to review menu on the right side of the screen.
+3. Request code reviews from your two assigned reviews by adding tagging their usernames with `@`.
 4. Your classmates will review your code. 
 5. After they have reviewed your code, make any additional changes in response to their reviews or otherwise.
 6. Once you have completed your revisions, [merge](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/merging-a-pull-request) your pull request back into your `master` branch.
@@ -98,8 +98,7 @@ Before submitting your work, make sure it's tidy:
 - Your scripts must not contain code that _installs_ packages (this is not good 
   practice anyway).
     - Note that this is different from loading packages with the `library()` function, which is good and necessary!
-- All RMarkdown files are `knit`ted to a readable output. This means knitting 
-  to `github_document` (and optionally HTML).
+- All RMarkdown files are `knit`ted to a readable output. This means knitting to `github_document` (and optionally HTML).
     - Later on in the semester, we will also knit to HTML and set up a webpage for them.
     
     

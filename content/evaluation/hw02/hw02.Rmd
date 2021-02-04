@@ -1,207 +1,90 @@
 ---
-title: "Data Science and Programming Assignment 02: Explore gapminder and use dplyr"
+title: "Assignment 02: Explore gapminder and use dplyr"
 ---
-
-__Due February 10, 2020 at 23:59__
 
 ## Objective
 
-The goal is to get your feet wet with `ggplot2` and `dplyr` to explore a dataset.
+The goal is to practice with `ggplot2` and `dplyr` to explore a dataset.
+
 
 ## Setup
 
-Work with the `gapminder` data we explored in class, or more than one data set if you want.
+Work with the `gapminder::gapminder` data we explored in class.
 
-The gapminder data is distributed as an R package from [CRAN](https://cran.r-project.org/web/packages/gapminder/index.html). 
-Install it if you have not done so already, by executing the code 
-`install.packages("gapminder")`, and remember to load it with `library(gapminder)`.
+Load up the packages you will need for this assignment using `library()`:
 
-Install and load `dplyr`, probably via the `tidyverse` meta-package.
+```{r}
 
-## Tidy Submission (10%)
+```
 
-#### Mechanics (5%)
 
-Follow the instructions for making a tidy submission, found on the [assignments home page](/evaluation/assignments).
+## Tidy Submission
 
-#### Writing (5%)
+Please be sure to follow the instructions for making a **tidy submission**, found on the [assignments home page](/evaluation/assignments).
 
-- You must use clear English writing, spelling, and grammar.
-- Your writing is concise. 
 
-## Exercise 1: Basic `dplyr` (45%)
+## Exercise 1: Basic `dplyr`
 
 Use `dplyr` functions to achieve the following.
 
-### 1.1 (9%)
-
----
-
-Rubrics:
-
-- Accuracy
-	- How successful were you at producing the required tibble?
-	
----
+### 1.1
 
 Use `filter()` to subset the `gapminder` data to three countries of your choice in the 1970's.
 
-### 1.2 (9%)
-
----
-
-Rubrics:
-
-- Accuracy
-	- How successful were you at producing the required tibble?
-	
----
+### 1.2
 
 Use the pipe operator `%>%` to select "country" and "gdpPercap" from your filtered dataset in 1.1.
 
-### 1.3 (9%)
+### 1.3
 
----
-
-Rubrics:
-
-- Accuracy
-	- How successful were you at producing the required tibble?
-	
----
-
-Filter `gapminder` to all entries that have experienced a drop in life 
-expectancy. Be sure to include a new variable that's the increase in life 
-expectancy in your tibble. 
+Make a new variable in `gapminder` for the change in life expectancy from the previous measurement. 
+Filter this table to show all of the entries that have experienced a **drop** in life expectancy.
 
 __Hint__: you might find the `lag()` or `diff()` functions useful. 
 
-### 1.4 (9%)
+### 1.4
 
----
+Filter `gapminder` so that it shows the max GDP per capita experienced by 
+each country. 
 
-Rubrics:
+__Hint__: you might find the `max()` function useful here. 
 
-- Accuracy
-	- How successful were you at producing the required tibble?
-	
----
-
-Choose **one** of the following: 
-
-- Filter `gapminder` so that it shows the max GDP per capita experienced by 
-each country. __Hint__: you might find the `max()` function useful here. 
-
-OR
-
-- Filter gapminder to contain six rows: the rows with the three largest GDP per 
-  capita, and the rows with the three smallest GDP per capita. Be sure to not 
-  create any intermediate objects when doing this (with, for example, the 
-  assignment operator). 
-  
-  __Hint__: you might find the `sort()` function useful, or perhaps even the 
-  `dplyr::slice()` function.
-
-
-### 1.5 (9%)
-
----
-
-Rubrics:
-
-- Accuracy
-	- How successful were you at producing the required plot?
-
----
+### 1.5
 
 Produce a scatterplot of Canada's life expectancy vs. GDP per capita using 
-`ggplot2`, without defining a new variable. That is, after filtering the 
-`gapminder` data set, pipe it directly into the `ggplot()` function. Ensure GDP 
-per capita is on a log scale. 
+`ggplot2`, without defining a new variable. 
+That is, after filtering the `gapminder` data set, pipe it directly into the `ggplot()` function. 
+In your plot, put GDP per capita on a **log scale**. 
 
 
-## Exercise 2: Explore individual variables with `dplyr` (15%)
+## Exercise 2: Explore two variables with `dplyr` and `ggplot2`
 
----
+Use `palmerpenguins::penguins` or another dataset of your choice.
+(Check out a dataset from the `datasets` R package if you want!)
 
-Rubrics: 
+### 2.1 
 
-- Reasoning: (8%)
-	- Does your exploration make sense?
-- Accuracy: (7%)
-	- Does your code work?
+Pick two **quantitative** variables to explore. 
 
----
+* Make a summary table of descriptive statistics for these variables using `summarize()`.
+  - Include whatever staistics you feel appropriate (mean, median sd, range, etc.).
+* Make a scatterplot of these variables using `ggplot()`.
 
-Pick one categorical variable and one quantitative variable to explore. Answer 
-the following questions in whichever way you think is appropriate, using `dplyr`:
+### 2.2 
 
-* What are the possible values (or range, whichever is appropriate) of each variable?
-* What values are typical? What's the spread? What's the distribution? Etc., tailored to the variable at hand.
-* Feel free to use summary stats, tables, figures.
+Pick one *categorical* variable and one *quantitative* variable to explore. 
 
-
-## Exercise 3: Explore various plot types (30%)
-
----
-
-Rubrics: 
-
-- Reasoning: (15%)
-	- Were you able to produce plots that make sense?
-	- We're not looking for publication quality graphics here yet.
-- Accuracy: (15%)
-	- Does your code work?
-
----
-
-Make two plots that have some value to them. That is, plots that someone might 
-actually consider making for an analysis. Just don't make the same plots we made 
-in class—feel free to use a data set from the `datasets` R package or any other
-source if you wish.
-
-1. A scatterplot of two quantitative variables.
-2. One other plot besides a scatterplot.
-
-You don't have to use all the data in every plot! It's fine to filter down to 
-one group or country or a small handful of groups/countries.
+* Make a summary table giving the sample size (hint: `n()`) and descriptive statistics for the quantitative variable by group.
+* Make one or more useful plots to visualize these variables.
 
 
-## Recycling (Optional) (extra 2%)
+## Bonus Exercise: Recycling (Optional)
 
----
-
-Rubrics: 
-
-- Reasoning
-	- How well did you reason through the scenario?
-
----
-
-*For people who want to take things further.*
-
-Evaluate this code and describe the result. Presumably the analyst's intent was 
-to get the data for Rwanda and Afghanistan. Did they succeed? Why or why not? 
+Evaluate this code and describe the result. 
+The goal was to get the data for Rwanda and Afghanistan. 
+Does this work? Why or why not? 
 If not, what is the correct way to do this?
 
 ```
 filter(gapminder, country == c("Rwanda", "Afghanistan"))
 ```
-
-Read [What I do when I get a new data set as told through tweets](http://simplystatistics.org/2014/06/13/what-i-do-when-i-get-a-new-data-set-as-told-through-tweets/) from [SimplyStatistics](http://simplystatistics.org) to get some ideas!
-
-
-## Tibble display (Optional) (extra 1%)
-
----
-
-Rubrics: 
-
-- Accuracy
-	- Do your tibbles in this assignment adopt the required convention?
-
----
-
-Present numerical tables in a more attractive form using `knitr::kable()` for 
-small tibbles (say, up to 10 rows), and `DT::datatable()` for larger tibbles.
-

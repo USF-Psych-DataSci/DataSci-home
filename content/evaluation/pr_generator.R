@@ -33,9 +33,9 @@ filter(assignments, r1 == r2)
 filter(assignments, self == r1)
 filter(assignments, self == r2)
 
-assignments[c(4, 9), c(3, 5)] <- assignments[c(9, 4), c(3, 5)]
+assignments[c(3, 15), c(3, 5)] <- assignments[c(15, 3), c(3, 5)]
 
-assignments[c(10, 7), c(4, 6)] <- assignments[c(7, 10), c(4, 6)]
+assignments[c(11, 12), c(4, 6)] <- assignments[c(12, 11), c(4, 6)]
 
 any(assignments$r1 == assignments$r2)
 any(assignments$self == assignments$r1)
