@@ -3,7 +3,8 @@
 You will analyze data looking at the relationship between **green reputation** and three personality traits--**compassion**, **intellectual curiosity**, and **openness to experiences**.
 The dataset includes data from **students** and **non-students**.
 
-```{r}
+```{r, eval = FALSE}
+# Remove `eval = FALSE` from the code chunk options when you work with the homework
 dictionary <- readr::read_csv("green_dictionary.csv")
 green_data <- readr::read_csv("green_data.csv")
 ```
