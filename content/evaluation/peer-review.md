@@ -21,9 +21,9 @@ All submissions are due by 23:59.
 |----------------|
 | [Peer Review 01](/evaluation/hw01/pr01) |
 | [Peer Review 02](/evaluation/hw02/pr02) |
+| [Peer Review 03](/evaluation/hw03/pr03) |
 
 <!--
-| [Peer Review 03](/evaluation/hw03/pr03) | 18 Feb 2020 |
 | [Peer Review 04](/evaluation/hw04/pr04) | 03 Mar 2020 |
 | [Peer Review 05](/evaluation/hw05/pr05) | 10 Mar 2020 |
 | Peer Review 06 | 24 Mar 2020 |

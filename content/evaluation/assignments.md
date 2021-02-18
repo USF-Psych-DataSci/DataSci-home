@@ -13,7 +13,7 @@ appear after the assignment is posted.
 |---------------|-----------------------------|
 | [Assignment 01](/evaluation/hw01/hw01) | Github, Markdown |
 | [Assignment 02](/evaluation/hw02/hw02) | _dplyr_, _ggplot2_ |
-
+| [Assignment 03](/evaluation/hw02/hw03) | Green behavior and personality report |
 
 <!--
 | Assignment | Data exploration report     |

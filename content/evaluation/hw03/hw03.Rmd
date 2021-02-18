@@ -1,147 +1,26 @@
----
-title: "Data Science and Programming Assignment 03: Write a Report on Exploring a Dataset"
----
+# Homework 03
 
-__Due February 17, 2020 at 23:59__
+You will analyze data looking at the relationship between **green reputation** and three personality traits--**compassion**, **intellectual curiosity**, and **openness to experiences**.
+The dataset includes data from **students** and **non-students**.
 
+```{r}
+dictionary <- readr::read_csv("green_dictionary.csv")
+green_data <- readr::read_csv("green_data.csv")
+```
 
-## Overview
+For your assignment, do the following.
 
-The goal is to manipulate and explore a dataset with the `dplyr` package, 
-complemented by visualizations made with `ggplot2`. You can think of this as a 
-deeper version of Homework 02.
-
-## Setup
-
-Work with one of the data sets we explored in class, such as `gapminder`, 
-`psych::bfi`. You can work with another dataset (or more than one dataset) if 
-you want.
-
-## Tidy Submission (10%)
-
-### Mechanics (5%)
-
-Follow the instructions for making a tidy submission, found on the 
-[assignments home page](/evaluation/assignments).
-
-### Writing (5%)
-
-- You must use clear phrasing, spelling, and grammar.
-- You should write concisely. 
-
-## The Assignment (90%)
-
----
-
-Rubric for each task:
-
-- [code quality](https://github.com/UBC-MDS/public/blob/master/rubric/rubric_quality.md): (10%)
-	- Did you use the tidyverse (dplyr, ggplot2) where appropriate?
-- [vis quality](https://github.com/UBC-MDS/public/blob/master/rubric/rubric_viz.md): (10%)
-	- Did you produce an effective plot?
-- [tibble accuracy](https://github.com/UBC-MDS/public/blob/master/rubric/rubric_accuracy.md): (10%)
-	- does your tibble reflect the task?
-
----
-
-Pick _*three*_ of the tasks below, and, for each selected task, produce: 
-
-- a tibble, using `dplyr` as your data manipulation tool;
-- an accompanying plot of data from the tibble, using `ggplot2` as your visualization tool; and
-- some dialogue about what your tables/figures show (doesn't have to be much).
-  - The idea is to structure your assignment like it's an actual report someone
-    might read.
-
-Or, make up your own task(s)! If you want to do something comparable but different, 
-i.e. swap one quantitative variable for another, be my guest! If you are feeling 
-inspired and curious, then we're doing this right. Go for it. Just write down the 
-task that you are now doing. Between the `dplyr` coverage in class and the list 
-below, I think you get the idea.
-
-Relax about the following things:
-
-- Your figure does not have to depict every single number from the data 
-  aggregation result. Use your judgement. It just needs to complement the table, 
-  add context, and allow for some sanity checking both ways.
-- Tidying/reshaping is NOT your assignment. Many of your tables will be 
-  awkwardly shaped in the report. That's OK.
-- Table beauty is not a big deal. Simply printing to "screen" is fine.
-  - You can do either `print()` or `knitr::kable()` to output your tables.
-
-Tip: Treat this assignment as a "cheat sheet" for future-you! Don't assume that 
-you'll remember the lessons you learned while writing this assignment. Write 
-things down:
-
-- Add notes on difficulties/oddities you encountered. For example, which figures 
-  are easy/hard to make, which data formats make better inputs for plotting 
-  functions vs. for human-friendly tables.
-- Provide attribution whenever you take code or an idea from somewhere else, 
-  whether a blog post, a colleague, a vignette, etc. Putting those pointers in 
-  your "cheat sheet" will be useful for future-you -- and it's just good 
-  practice to indicate where you got things from.
-
-
-### Task Option 1
-
-Work with `gapminder`. Report the absolute and/or relative abundance of countries 
-with low life expectancy over time by continent: Compute some measure of 
-worldwide life expectancy—you decide−a mean or median or some other quantile or 
-perhaps your current age. Then determine how many countries on each continent 
-have a life expectancy less than this benchmark, for each year.
-
-### Task Option 2
-
-Work with `gapminder`. Get the maximum and minimum of GDP per capita for all 
-continents.
-
-### Task Option 3
-
-Work with `gapminder`. Look at the spread/variability of GDP per capita within 
-the continents.
-
-### Task Option 4
-
-Work with `gapminder`. Compute a trimmed mean of life expectancy for different 
-years. Or a weighted mean, weighting by population. Just try something other 
-than the plain vanilla mean.
-
-### Task Option 5
-
-Work with `gapminder`. How is life expectancy changing over time on different 
-continents?
-
-### Task Option 6
-
-Work with `gapminder`. Find countries with interesting stories. This task is 
-open-ended and, therefore, hard. Promising but unsuccessful attempts are 
-encouraged. Be sure to include them in your submission! This will generate 
-interesting questions to follow up on in class.
-
-### Task Option 7
-
-Work with `psych::bfi`. Compute composite scores for the five Big Five scores, 
-including both person-mean scores and person-sd scores. Describe the 
-distributions of the different personality variables.
-
-### Task Option 8
-
-Work with `psych::bfi`. Using the composite scores from Task 7, describe the 
-relationships among the different personality variables.
-
-### Task Option 9
-
-Work with `psych::bfi`. Using the composite scores from Task 7, explore how age
-is related to the different personality variables. Does personality appear to 
-change for different ages?
-
-### Task Option 10
-
-Work with `psych::bfi`. Using the composite scores from Task 7, explore how gender
-is related to the different personality variables.
-
-
-## Optional Exercise (2%)
-
-Get a table and figure to show side-by-side. 
-[This gist](https://gist.github.com/jennybc/e9e9aba6ba18c72cec26) might get you 
-started.
+  1. Inspect the item responses (e.g., with graphs or by summarizing distinct values). 
+     Is anything unusual?
+  2. Compute total scores for the four scales. 
+     Recode variables as needed.
+  3. Rescale the variables so that they go from 0-100 instead of the original range.
+     Name the recaled variables `*_pomp`.
+  4. Make plots that illustrate the distributions of the 4 POMP-scored variables.
+  5. Make scatterplots showing the relationships between **green reputation** and each personality trait.
+     Include trend lines for **students** and **non-students**.
+     What do these plots show?
+  6. Compare **green reputation** for students and non-students using a **rainfall plot** (bar + density + data points).
+  7. Compute a summary table of means, SDs, medians, minima, and maxima for the four total scores for students and non-students.
+  
+In your assignment, prepare an RMarkdown file that includes both the coding and (for 4-7) narrative descriptions of your results.
