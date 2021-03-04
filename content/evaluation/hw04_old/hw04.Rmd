@@ -1,0 +1,157 @@
+---
+title: "Data Science and Programming Assignment 04: Tidy data and joins"
+---
+
+__Due March 2, 2020 at 23:59__
+
+## Objective
+
+You have learned alot about data wrangling! You know how to use the tidyverse to:
+
+* Filter rows and select variables in a principled or name-based manner
+* Modify variables and create new variables
+* Group rows of a data frame and do summarizing or mutating computations within group
+* Reshape a data frame
+* Get new information into a data frame via a joining
+
+The goal of this homework is to solidify your data wrangling skills by working 
+some realistic problems in the grey area between data aggregation and data 
+reshaping.
+
+If you internalize that there are multiple solutions to most problems, you will 
+spend less time banging your head against the wall in data analysis. If 
+something's really hard, sneak up on it from a different angle.
+
+## Tidy Submission (10%)
+
+### Mechanics (5%)
+
+Follow the instructions for making a tidy submission, found on the 
+[assignments home page](evaluation/assignments).
+
+### Writing (5%)
+
+- You must use clear English, spelling, and grammar.
+- You should write concisely. 
+
+
+## Exercise 1: Univariate Data Reshaping (30%)
+
+Choose __\*EITHER\*__ "Univariate Option 1" or "Univariate Option 2". 
+Both of these problems have three components:
+
+1. Putting data in wider format; (10%)
+	- 5%: Did you produce the correct result?
+	- 5%: Code quality
+2. Producing a plot of the wide data; (10%)
+	- 5%: Did you produce a sensible visualization?
+	- 5%: Code quality
+3. Re-lengthening the wider data. (10%)
+	- 5%: Did you produce the correct result?
+	- 5%: Code quality
+
+You are expected to use `pivot_wider()` and `pivot_longer()` for reshaping,
+and `ggplot2` for the plot.
+
+Regarding the plot: 
+
+- Don't worry about plotting _all_ of the data from the wide tibble. 
+- The plot should be something that someone might actually want to produce in 
+  an analysis report.
+
+### Univariate Option 1
+
+1. Make a tibble with one row per year, and columns for life expectancy for two 
+   or more countries. 
+2. Take advantage of this new data shape to scatterplot life expectancy for one 
+   country against that of another.
+3. Re-lengthen the data.
+
+### Univariate Option 2
+
+1. Compute some summary of life expectancy (mean? median? min? max?) for all 
+   possible combinations of **continent** and **year**. Reshape those results 
+   to have one _row per year_ and _one variable/column for each continent_. 
+     - Or the other way around: one row per continent and one variable per year.
+2. Is there a plot that is easier to make with the data in this shape versis 
+   the usual form? Try making such a plot!
+3. Re-lengthen the data.
+
+
+## Exercise 2: Multivariate Data Reshaping (30%)
+
+Choose __\*EITHER\*__ "Multivariate Option 1" or "Multivariate Option 2". 
+Both of these problems have two components:
+
+1. Putting data in wider format; (15%)
+	- 5%: Did you produce the correct result?
+	- 10%: Code quality
+2. Re-lengthening the data. (15%)
+	- 5%: Did you produce the correct result?
+	- 10%: Code quality
+
+Don't worry about producing a plot here. You are expected to use `pivot_wider()` 
+and `pivot_longer()` for reshaping.
+
+### Multivariate Option 1
+
+1. Make a tibble with _one row per year_, and _columns_ for life expectancy 
+   **and** GDP per capita for two or more countries.
+2. Print this table in a pretty format, using either `knitr::kable()` or 
+   `DT::datatable()` depending on the number of rows of data.
+3. Re-lengthen the data.
+
+### Multivariate Option 2
+
+1. Compute some summary of life expectancy **and** GDP per capita (mean? median? 
+   min? max?) for all possible combinations of continent and year. Reshape those
+   summaries to have _one row per year_ and _one variable/column_ for each 
+   continent-measurement combination. Or the other way around: one row per 
+   continent and one variable for each year-measurement combination.
+2. Re-lengthen the data.
+
+
+## Exercise 3: Table Joins (30%)
+
+Do __\*ALL\*__ of the activities in this section.
+
+Read in the made-up wedding guestlist and email addresses using the following 
+lines (go ahead and copy-paste these):
+
+```
+guest <- read_csv("https://raw.githubusercontent.com/USF-Psych-DataSci/Classroom/master/data/wedding/attend.csv")
+email <- read_csv("https://raw.githubusercontent.com/USF-Psych-DataSci/Classroom/master/data/wedding/emails.csv")
+```
+
+Then, complete the following tasks using the tidyverse (`tidyr`, `dplyr`, ...). 
+There shouldn't be any need to do any pivoting -- feel free to leave `guest` 
+in its current format.
+
+### 3.1 (10%)
+
+__Rubric__:
+
+- 5%: Did you produce the correct result?
+- 5%: Code quality
+
+For each guest in the guestlist (`guest` tibble), add a column for email address, 
+which can be found in the `email` tibble.
+
+### 3.2 (10%)
+
+__Rubric__: 
+
+- 5%: Did you produce the correct result?
+- 5%: Code quality
+
+Who do we have emails for, yet are not on the guestlist?
+
+### 3.3 (10%)
+
+__Rubric__:
+
+- 5%: Did you produce the correct result?
+- 5%: Code quality
+
+Make a guestlist that includes everyone we have emails for (in addition to 
+those on the original guestlist).

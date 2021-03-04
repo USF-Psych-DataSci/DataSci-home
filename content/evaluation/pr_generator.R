@@ -9,7 +9,6 @@ assignments <-
     "gregrousis",
     "iannel",
     "Han-Lee93",
-    "kaycheharvey",
     "khoanguyen0812",
     "lendijoy",
     "Naidantu",
@@ -23,9 +22,9 @@ assignments <-
     "whitneykasenetz"
   ) %>%
   mutate(
-    self = 1:18,
-    r1 = sample(1:18, 18, replace = FALSE),
-    r2 = sample(1:18, 18, replace = FALSE)
+    self = 1:17,
+    r1 = sample(1:17, 17, replace = FALSE),
+    r2 = sample(1:17, 17, replace = FALSE)
     ) %>%
   mutate(pr1 = names[r1], pr2 = names[r2])
 
@@ -33,7 +32,9 @@ filter(assignments, r1 == r2)
 filter(assignments, self == r1)
 filter(assignments, self == r2)
 
-assignments[c(16, 15), c(3, 5)] <- assignments[c(15, 16), c(3, 5)]
+assignments[c(2, 12), c(3, 5)] <- assignments[c(15, 16), c(3, 5)]
+
+assignments[c(2, 12), c(3)] <- assignments[c(12, 2), c(3)]
 
 assignments[c(4, 6, 7), c(4, 6)] <- assignments[c(7, 4, 6), c(4, 6)]
 
