@@ -12,12 +12,12 @@ title = "Course Structure"
 #   name = "[Office Hours](/officehours)"
 #   description = ""
   
-[[feature]]
-  icon = "calendar-alt"
-  icon_pack = "fas"
-  name = "[Class Meeting Schedule](/cm_schedule)"
-  description = "" 
-  width = 6
+# [[feature]]
+#   icon = "calendar-alt"
+#   icon_pack = "fas"
+#   name = "[Class Meeting Schedule](/cm_schedule)"
+#   description = "" 
+#   width = 6
 
 [[feature]]
   icon = "scroll"

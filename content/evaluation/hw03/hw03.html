@@ -1,0 +1,28 @@
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<div id="homework-03" class="section level1">
+<h1>Homework 03</h1>
+<p>You will analyze data looking at the relationship between <strong>green reputation</strong> and three personality traits–<strong>compassion</strong>, <strong>intellectual curiosity</strong>, and <strong>openness to experiences</strong>.
+The dataset includes data from <strong>students</strong> and <strong>non-students</strong>.</p>
+<pre class="r"><code># Remove `eval = FALSE` from the code chunk options when you work with the homework
+dictionary &lt;- readr::read_csv(&quot;green_dictionary.csv&quot;)
+green_data &lt;- readr::read_csv(&quot;green_data.csv&quot;)</code></pre>
+<p>For your assignment, do the following.</p>
+<ol style="list-style-type: decimal">
+<li>Inspect the item responses (e.g., with graphs or by summarizing distinct values).
+Is anything unusual?</li>
+<li>Compute total scores for the four scales.
+Recode variables as needed.</li>
+<li>Rescale the variables so that they go from 0-100 instead of the original range.
+Name the recaled variables <code>*_pomp</code>.</li>
+<li>Make plots that illustrate the distributions of the 4 POMP-scored variables.</li>
+<li>Make scatterplots showing the relationships between <strong>green reputation</strong> and each personality trait.
+Include trend lines for <strong>students</strong> and <strong>non-students</strong>.
+What do these plots show?</li>
+<li>Compare <strong>green reputation</strong> for students and non-students using a <strong>rainfall plot</strong> (bar + density + data points).</li>
+<li>Compute a summary table of means, SDs, medians, minima, and maxima for the four total scores for students and non-students.</li>
+</ol>
+<p>In your assignment, prepare an RMarkdown file that includes both the coding and (for 4-7) narrative descriptions of your results.</p>
+</div>

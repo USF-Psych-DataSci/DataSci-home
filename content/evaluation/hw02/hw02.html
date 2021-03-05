@@ -1,0 +1,83 @@
+---
+title: "Assignment 02: Explore gapminder and use dplyr"
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<div id="objective" class="section level2">
+<h2>Objective</h2>
+<p>The goal is to practice with <code>ggplot2</code> and <code>dplyr</code> to explore a dataset.</p>
+</div>
+<div id="setup" class="section level2">
+<h2>Setup</h2>
+<p>Work with the <code>gapminder::gapminder</code> data we explored in class.</p>
+<p>Load up the packages you will need for this assignment using <code>library()</code>:</p>
+</div>
+<div id="tidy-submission" class="section level2">
+<h2>Tidy Submission</h2>
+<p>Please be sure to follow the instructions for making a <strong>tidy submission</strong>, found on the <a href="/evaluation/assignments">assignments home page</a>.</p>
+</div>
+<div id="exercise-1-basic-dplyr" class="section level2">
+<h2>Exercise 1: Basic <code>dplyr</code></h2>
+<p>Use <code>dplyr</code> functions to achieve the following.</p>
+<div id="section" class="section level3">
+<h3>1.1</h3>
+<p>Use <code>filter()</code> to subset the <code>gapminder</code> data to three countries of your choice in the 1970’s.</p>
+</div>
+<div id="section-1" class="section level3">
+<h3>1.2</h3>
+<p>Use the pipe operator <code>%&gt;%</code> to select “country” and “gdpPercap” from your filtered dataset in 1.1.</p>
+</div>
+<div id="section-2" class="section level3">
+<h3>1.3</h3>
+<p>Make a new variable in <code>gapminder</code> for the change in life expectancy from the previous measurement.
+Filter this table to show all of the entries that have experienced a <strong>drop</strong> in life expectancy.</p>
+<p><strong>Hint</strong>: you might find the <code>lag()</code> or <code>diff()</code> functions useful.</p>
+</div>
+<div id="section-3" class="section level3">
+<h3>1.4</h3>
+<p>Filter <code>gapminder</code> so that it shows the max GDP per capita experienced by
+each country.</p>
+<p><strong>Hint</strong>: you might find the <code>max()</code> function useful here.</p>
+</div>
+<div id="section-4" class="section level3">
+<h3>1.5</h3>
+<p>Produce a scatterplot of Canada’s life expectancy vs. GDP per capita using
+<code>ggplot2</code>, without defining a new variable.
+That is, after filtering the <code>gapminder</code> data set, pipe it directly into the <code>ggplot()</code> function.
+In your plot, put GDP per capita on a <strong>log scale</strong>.</p>
+</div>
+</div>
+<div id="exercise-2-explore-two-variables-with-dplyr-and-ggplot2" class="section level2">
+<h2>Exercise 2: Explore two variables with <code>dplyr</code> and <code>ggplot2</code></h2>
+<p>Use <code>palmerpenguins::penguins</code> or another dataset of your choice.
+(Check out a dataset from the <code>datasets</code> R package if you want!)</p>
+<div id="section-5" class="section level3">
+<h3>2.1</h3>
+<p>Pick two <strong>quantitative</strong> variables to explore.</p>
+<ul>
+<li>Make a summary table of descriptive statistics for these variables using <code>summarize()</code>.
+<ul>
+<li>Include whatever staistics you feel appropriate (mean, median sd, range, etc.).</li>
+</ul></li>
+<li>Make a scatterplot of these variables using <code>ggplot()</code>.</li>
+</ul>
+</div>
+<div id="section-6" class="section level3">
+<h3>2.2</h3>
+<p>Pick one <em>categorical</em> variable and one <em>quantitative</em> variable to explore.</p>
+<ul>
+<li>Make a summary table giving the sample size (hint: <code>n()</code>) and descriptive statistics for the quantitative variable by group.</li>
+<li>Make one or more useful plots to visualize these variables.</li>
+</ul>
+</div>
+</div>
+<div id="bonus-exercise-recycling-optional" class="section level2">
+<h2>Bonus Exercise: Recycling (Optional)</h2>
+<p>Evaluate this code and describe the result.
+The goal was to get the data for Rwanda and Afghanistan.
+Does this work? Why or why not?
+If not, what is the correct way to do this?</p>
+<pre><code>filter(gapminder, country == c(&quot;Rwanda&quot;, &quot;Afghanistan&quot;))</code></pre>
+</div>
