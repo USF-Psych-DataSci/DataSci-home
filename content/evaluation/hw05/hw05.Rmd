@@ -65,7 +65,7 @@ What do they show about scented candles over the time period?
 Combine the two datasets into one and make a plot similar to above, but showing both unscented and scented candles.
 Distinguish scented versus unscented candles using color, shape, and line type (for the trend lines).
 
-```{r combine datasets}
+```{r combine datasets, eval=FALSE}
 candles_full <- bind_rows(
 	scented = candeles_scented, 
 	unscented = candeles_unscented, 
