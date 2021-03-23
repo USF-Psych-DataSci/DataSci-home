@@ -26,7 +26,7 @@ Each dataset contains the following information for the Top 3 selling scented or
   4. `Review`: For the scented candles, the text of the review.
 
 ```{r setup, include=FALSE}
-
+library(dplyr)
 ```
 
 
