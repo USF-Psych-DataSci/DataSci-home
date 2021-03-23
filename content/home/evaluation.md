@@ -13,12 +13,12 @@ title = "Evaluation"
   description = "50%"
   width = 3
   
-# [[feature]]
-#   icon = "user-friends"
-#   icon_pack = "fas"
-#   name = "[Peer Review](/evaluation/peer-review)"
-#   description = "20%"  
-#   width = 3
+[[feature]]
+  icon = "user-friends"
+  icon_pack = "fas"
+  name = "[Peer Review](/evaluation/peer-review)"
+  description = "20%"  
+  width = 3
 
 [[feature]]
   icon = "chart-bar"
