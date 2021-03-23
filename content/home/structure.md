@@ -2,9 +2,9 @@
 widget = "featurette"  
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 35  # Order that this section will appear.
+weight = 55  # Order that this section will appear.
 
-title = "Course Structure"
+title = "Course Policies"
 
 # [[feature]]
 #   icon = "building"
