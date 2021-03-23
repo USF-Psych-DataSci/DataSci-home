@@ -1,0 +1,28 @@
+---
+title: "Peer Reivew Assignment 03"
+---
+
+```{r, echo = FALSE}
+pr <- tibble::tribble(
+              ~Name,                                       ~To.Review,                                               ~Will.Review,
+      "antoniettaa",         "Please review eburkey and roxannefelig",       "You will be reviewed by iannel and samanthashepard",
+     "diegodulanto",           "Please review sejalkesh and lendijoy",           "You will be reviewed by lendijoy and sejalkesh",
+          "eburkey",       "Please review samanthashepard and iannel",   "You will be reviewed by antoniettaa and khoanguyen0812",
+       "gregrousis",     "Please review ncaliskan and khoanguyen0812",        "You will be reviewed by roxannefelig and Naidantu",
+           "iannel",        "Please review antoniettaa and Han-Lee93",             "You will be reviewed by Naidantu and eburkey",
+        "Han-Lee93",           "Please review lendijoy and sejalkesh",            "You will be reviewed by tylerallan and iannel",
+   "khoanguyen0812",      "Please review whitneykasenetz and eburkey",         "You will be reviewed by ncaliskan and gregrousis",
+         "lendijoy",      "Please review diegodulanto and samruddhis",       "You will be reviewed by Han-Lee93 and diegodulanto",
+         "Naidantu",            "Please review iannel and gregrousis", "You will be reviewed by samanthashepard and roxannefelig",
+        "ncaliskan",    "Please review khoanguyen0812 and tylerallan",   "You will be reviewed by gregrousis and whitneykasenetz",
+          "njie-DP", "Please review roxannefelig and whitneykasenetz",         "You will be reviewed by sejalkesh and samruddhis",
+     "roxannefelig",          "Please review gregrousis and Naidantu",          "You will be reviewed by njie-DP and antoniettaa",
+  "samanthashepard",         "Please review Naidantu and antoniettaa",           "You will be reviewed by eburkey and tylerallan",
+       "samruddhis",           "Please review tylerallan and njie-DP",     "You will be reviewed by whitneykasenetz and lendijoy",
+        "sejalkesh",         "Please review njie-DP and diegodulanto",       "You will be reviewed by diegodulanto and Han-Lee93",
+       "tylerallan",    "Please review Han-Lee93 and samanthashepard",         "You will be reviewed by samruddhis and ncaliskan",
+  "whitneykasenetz",         "Please review samruddhis and ncaliskan",       "You will be reviewed by khoanguyen0812 and njie-DP"
+  )
+
+knitr::kable(pr)
+```
